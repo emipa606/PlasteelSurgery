@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Manifest>
+    <identifier>PS_PlasteelSurgery</identifier>
+    <version>1.0.1</version>
+    <dependencies>
+        <li>PS_PlasteelSurgery</li>
+    </dependencies>
+    <!--<incompatibleWith>
+        <li>SomeOtherMod</li>
+    </incompatibleWith>
+    <loadBefore>
+        <li>HowManyModsDoesOneNeed &gt;= 9000.1</li>
+    </loadBefore>-->
+    <!--<loadAfter>
+        <li>PlasteelSurgery</li>
+    </loadAfter>-->
+    <suggests>
+        <li>PS_BarborPod</li>
+        <li>PS_ReconPod</li>
+    </suggests>
+    <showCrossPromotions>true</showCrossPromotions>
+    <!--<manifestUri>https://rawgit.com/FluffierThanThou/ModManager/master/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/FluffierThanThou/ModManager/releases/latest</downloadUri>-->
+</Manifest>

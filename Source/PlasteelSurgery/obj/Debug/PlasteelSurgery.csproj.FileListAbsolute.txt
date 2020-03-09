@@ -1,0 +1,9 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PlasteelSurgery\Source\PlasteelSurgery\obj\Debug\PlasteelSurgery.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PlasteelSurgery\Assemblies\PlasteelSurgery.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PlasteelSurgery\Source\PlasteelSurgery\obj\Debug\PlasteelSurgery.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PlasteelSurgery\Source\PlasteelSurgery\obj\Debug\PlasteelSurgery.csprojResolveAssemblyReference.cache
+E:\Steam\steamapps\common\RimWorld\Mods\PlasteelSurgery\Source\PlasteelSurgery\obj\Debug\PlasteelSurgery.csprojAssemblyReference.cache
+E:\Steam\steamapps\common\RimWorld\Mods\PlasteelSurgery\Source\PlasteelSurgery\obj\Debug\PlasteelSurgery.csproj.CoreCompileInputs.cache
+E:\Steam\steamapps\common\RimWorld\Mods\PlasteelSurgery\Source\PlasteelSurgery\obj\Debug\PlasteelSurgery.dll
+E:\Steam\steamapps\common\RimWorld\Mods\PlasteelSurgery\1.1\Assemblies\PlasteelSurgery.dll
+E:\Steam\steamapps\common\RimWorld\Mods\PlasteelSurgery\Source\PlasteelSurgery\obj\Debug\PlasteelSurgery.csproj.CopyComplete
