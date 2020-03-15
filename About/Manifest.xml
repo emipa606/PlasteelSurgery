@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Manifest>
     <identifier>PS_PlasteelSurgery</identifier>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <dependencies>
         <li>PS_PlasteelSurgery</li>
     </dependencies>
@@ -22,3 +22,4 @@
     <!--<manifestUri>https://rawgit.com/FluffierThanThou/ModManager/master/About/Manifest.xml</manifestUri>
     <downloadUri>https://github.com/FluffierThanThou/ModManager/releases/latest</downloadUri>-->
 </Manifest>
+
