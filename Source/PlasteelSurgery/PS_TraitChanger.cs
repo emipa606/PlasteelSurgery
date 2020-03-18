@@ -28,13 +28,11 @@ namespace PlasteelSurgery
 
         public static void SafeApplyChange(Pawn pawn)
         {
-
+            pawn.Notify_DisabledWorkTypesChanged();
             if (pawn.workSettings != null)
             {
                 pawn.workSettings.Notify_DisabledWorkTypesChanged();
             }
-            //pawn.story.Notify_TraitChanged(); <- Internal method, need to use reflection
-            typeof(Pawn_StoryTracker).GetField("cachedDisabledWorkTypes", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(pawn.story, null);
             if (pawn.skills != null)
             {
                 pawn.skills.Notify_SkillDisablesChanged();
