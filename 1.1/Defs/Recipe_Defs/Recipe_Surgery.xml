@@ -110,7 +110,7 @@
     <researchPrerequisite>PS_BodyModResearch</researchPrerequisite>
   </RecipeDef>
 
-  <RecipeDef ParentName="PL_AlterBodySurgery">
+  <SurgeryDef ParentName="PL_AlterBodySurgery">
     <defName>PS_MakeThin</defName>
     <label>Body Mod: Reduce Fat</label>
     <description>Uses liposuction in conjecture with stomach stapling to take pounds off and keep them off.</description>
