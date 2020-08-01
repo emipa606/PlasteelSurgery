@@ -75,6 +75,7 @@
     <Compile Include="PS_Recipes_Surgery_ImmunityBoost.cs" />
     <Compile Include="PS_Recipes_Surgery_Laryngoplasty.cs" />
     <Compile Include="PS_TraitChanger.cs" />
+    <Compile Include="SurgeryDef" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
