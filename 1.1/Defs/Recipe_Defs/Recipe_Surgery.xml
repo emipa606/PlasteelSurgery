@@ -52,9 +52,9 @@
   <RecipeDef ParentName="PS_Recipes_Surgery_TraitAlterBase">
     <defName>PS_Recipes_Surgery_Laryngoplasty</defName>
     <label>Laryngoplasty</label>
-    <description>A laryngeal reconstruction surgery that is able to alter or restore a persons voice. Very useful for people who suffer from annoying voices, creepy breathing, or botched laryngoplasties.</description>
+    <description>A laryngeal reconstruction surgery that is able to alter or restore a persons voice. Very useful for people suffering from annoying voices, creepy breathing, or botched laryngoplasties.</description>
     <workerClass>PlasteelSurgery.PS_Recipes_Surgery_Laryngoplasty</workerClass>
-    <jobString>Preforming laryngoplasty.</jobString>
+    <jobString>Performing laryngoplasty.</jobString>
     <researchPrerequisite>PS_Research_Laryngoplasty</researchPrerequisite>
   </RecipeDef>
   
@@ -79,7 +79,7 @@
   <!-- =================== BODY ALTERATION ======================-->
 
   <RecipeDef Abstract="True" Name="PL_AlterBodySurgery" ParentName="PlasteelSurgery">
-    <jobString>Preforming plasteel surgery.</jobString>
+    <jobString>Performing plasteel surgery.</jobString>
     <workAmount>8000</workAmount>
     <skillRequirements>
       <Medicine>5</Medicine>
@@ -120,7 +120,7 @@
   <RecipeDef ParentName="PL_AlterBodySurgery">
     <defName>PS_MakeStandard</defName>
     <label>Body Mod: Standardize</label>
-    <description>Removes or replaces lose muscle and fat to leave the patient with a standard not special physique.</description>
+    <description>Removes or replaces loose muscle and fat to leave the patient with a standard not special physique.</description>
     <workerClass>PlasteelSurgery.MakeStandard</workerClass>
   </RecipeDef>
 
@@ -163,7 +163,7 @@
   <!-- =================== FACE ALTERATION ======================-->
 
   <RecipeDef Abstract="True" Name="PL_AlterFaceSurgeryBase" ParentName="PlasteelSurgery">
-    <jobString>Preforming plasteel surgery.</jobString>
+    <jobString>Performing plasteel surgery.</jobString>
     <workAmount>8000</workAmount>
     <skillRequirements>
       <Medicine>10</Medicine>
@@ -235,7 +235,7 @@
 
   <RecipeDef Abstract="True" Name="PS_DecreaseBeautyBase" ParentName="PL_AlterFaceSurgeryBase">
     <label>Facial Reconstruction: Decrease Beauty</label>
-    <description>A scalpel cut here, some sutures there, and you've got a face only a mother could love. Not sure why you would do this to somebody, but you do you</description>
+    <description>A scalpel cut here, some sutures there, and you've got a face only a mother could love. Not sure why you would do this to somebody, but you do you.</description>
     <researchPrerequisite>PS_AdvancedFacialResearch</researchPrerequisite>
   </RecipeDef>
 
