@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Research Tabs -->
+
+  <PS_BasicResearch.label>basic reconstruction</PS_BasicResearch.label>
+  <PS_BasicResearch.description>Research into the most basic plastic surgery techniques. 
+
+Allows change of beauty from: 
+
+Increase- ugly to plain
+
+Decrease- pretty down to ugly</PS_BasicResearch.description>
+
+  <PS_IntermediateResearch.label>intermediate reconstruction</PS_IntermediateResearch.label>
+  <PS_IntermediateResearch.description>Research into intermediate plastic surgery techniques.
+
+Allows change of beauty from:
+
+Increase- ugly up to pretty
+
+Decrease- beautiful down to staggeringly ugly</PS_IntermediateResearch.description>
+
+  <PS_AdvancedFacialResearch.label>advanced reconstruction</PS_AdvancedFacialResearch.label>
+  <PS_AdvancedFacialResearch.description>Research into the most advanced facial reconstruction surgery techniques.
+
+Allows change of beauty from:
+
+Increase- staggeringly ugly up to beautiful
+
+Decrease- beautiful down to staggeringly ugly</PS_AdvancedFacialResearch.description>
+
+  <PS_BodyModResearch.label>body modification</PS_BodyModResearch.label>
+  <PS_BodyModResearch.description>Research into alteration of weight and physical build. Allows for changes to the patient's body type.</PS_BodyModResearch.description>
+
+  <PS_SexModResearch.label>sex reassignment</PS_SexModResearch.label>
+  <PS_SexModResearch.description>Research into alteration of biological sex. Allows for sex change surgeries. This surgery is purely internal and does not affect appearances.</PS_SexModResearch.description>
+
+  <PS_Research_Laryngoplasty.label>laryngoplasty</PS_Research_Laryngoplasty.label>
+  <PS_Research_Laryngoplasty.description>A laryngeal reconstruction surgery that is able to alter or restore a persons voice. Very useful for people who suffer from annoying voices, creepy breathing, or botched laryngoplasties.</PS_Research_Laryngoplasty.description>
+
+  <PS_Research_ImmuneBoost.label>immunity boosting</PS_Research_ImmuneBoost.label>
+  <PS_Research_ImmuneBoost.description>After a mishap involving confusing a vial of plasteel shaving for insulin, researchers discovered that the self sterilizing properties of plasteel take effect even while in the bloodstream. This lead to the development of an immune boosting procedure. Perfect for those who could best be described as sickly.</PS_Research_ImmuneBoost.description>
+
+
+</LanguageData>

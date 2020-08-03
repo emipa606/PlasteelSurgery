@@ -1,73 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Misc TRAIT ALTERATION -->
-
   <PS_Recipes_Surgery_Laryngoplasty.label>喉頭整形</PS_Recipes_Surgery_Laryngoplasty.label>
   <PS_Recipes_Surgery_Laryngoplasty.description>人の声を変更または復元することができる喉頭再建手術です。気に障る声、気持ち悪い息づかい、または喉頭整形失敗に苦しんでいる人には非常に便利でしょう。</PS_Recipes_Surgery_Laryngoplasty.description>
   <PS_Recipes_Surgery_Laryngoplasty.jobString>喉頭整形手術中</PS_Recipes_Surgery_Laryngoplasty.jobString>
-
   <!-- <PS_Recipes_Surgery_StimulateLegs.label>脚の筋肉を刺激</PS_Recipes_Surgery_StimulateLegs.label>
   <PS_Recipes_Surgery_StimulateLegs.description>患者の足に小さな電気ショックを施すことにより、歩行機能が改善され、移動速度全体が向上します。この手術の失敗は、逆の効果が生じる可能性があります。</PS_Recipes_Surgery_StimulateLegs.description>
   <PS_Recipes_Surgery_StimulateLegs.jobString>脚の筋肉を刺激中</PS_Recipes_Surgery_StimulateLegs.jobString> -->
-
   <PS_Recipes_Surgery_ImmunityBoost.label>免疫増強</PS_Recipes_Surgery_ImmunityBoost.label>
   <PS_Recipes_Surgery_ImmunityBoost.description>プラスチールの削り屑を血流に直接注入した事故に関係しています。プラスチールの自己滅菌性が正しく機能すれば、患者の免疫抵抗を改善することができます。しかし誤って実行すると、逆の効果が生じる可能性があります。</PS_Recipes_Surgery_ImmunityBoost.description>
   <PS_Recipes_Surgery_ImmunityBoost.jobString>免疫を増強中</PS_Recipes_Surgery_ImmunityBoost.jobString>
-
-
   <!-- BODY ALTERATION -->
-
   <PS_MakeThin.label>肉体改造：貧弱体型化</PS_MakeThin.label>
   <PS_MakeThin.description>脂肪吸引と胃の縮小手術を行って無駄肉を取り除き、太ることを止めさせます。</PS_MakeThin.description>
   <PS_MakeThin.jobString>プラスティール手術中</PS_MakeThin.jobString>
-
   <PS_MakeStandard.label>肉体改造：標準体型化</PS_MakeStandard.label>
   <PS_MakeStandard.description>除去手術または交換手術によって筋肉や脂肪を取り除き、患者を特別な体形から標準体型にします。</PS_MakeStandard.description>
   <PS_MakeStandard.jobString>プラスティール手術中</PS_MakeStandard.jobString>
-
   <PS_MakeLookFemale.label>肉体改造：女性化</PS_MakeLookFemale.label>
   <PS_MakeLookFemale.description>実際の生物学的な性別を変えることなく、患者の外見だけを標準的な女性の体形にします。</PS_MakeLookFemale.description>
   <PS_MakeLookFemale.jobString>プラスティール手術中</PS_MakeLookFemale.jobString>
-
   <PS_MakeHulk.label>肉体改造：筋肉体型化</PS_MakeHulk.label>
   <PS_MakeHulk.description>電気刺激とステロイド注射を同時に行って、急速に筋肉を発達させます。警告：脚部は含まれていません！</PS_MakeHulk.description>
   <PS_MakeHulk.jobString>プラスティール手術中</PS_MakeHulk.jobString>
-
   <PS_MakeFat.label>肉体改造：太め体型化</PS_MakeFat.label>
   <PS_MakeFat.description>ドナーから提供された脂肪を注入して、患者の代謝を遅らせることで、驚くほど急速に体重を増加させます。</PS_MakeFat.description>
   <PS_MakeFat.jobString>プラスティール手術中</PS_MakeFat.jobString>
-
   <PS_MakeLookMale.label>肉体改造：男性化</PS_MakeLookMale.label>
   <PS_MakeLookMale.description>実際の生物学的な性別を変えることなく、患者の外見だけを標準的な男性の体形にします。</PS_MakeLookMale.description>
   <PS_MakeLookMale.jobString>プラスティール手術中</PS_MakeLookMale.jobString>
-
   <PS_ChangeSex.label>肉体改造：性転換</PS_ChangeSex.label>
   <PS_ChangeSex.description>患者の生物学的な性別を現在のものと逆にします。この手術は純粋に内臓器官に対して行われ、肉体の外観には影響しません。</PS_ChangeSex.description>
   <PS_ChangeSex.jobString>プラスティール手術中</PS_ChangeSex.jobString>
-
-
   <!-- FACE ALTERATION -->
-
   <PS_IncreaseBeautyBasic.label>顔面整形：美しさUP（基本)</PS_IncreaseBeautyBasic.label>
   <PS_IncreaseBeautyBasic.description>外科医の手と審美眼で、患者の顔を今よりも美しくします。</PS_IncreaseBeautyBasic.description>
   <PS_IncreaseBeautyBasic.jobString>プラスティール手術中</PS_IncreaseBeautyBasic.jobString>
-
   <PS_IncreaseBeautyMid.label>顔面整形：美しさUP（発展)</PS_IncreaseBeautyMid.label>
   <PS_IncreaseBeautyMid.description>外科医の手と審美眼で、患者の顔を今よりも美しくします。</PS_IncreaseBeautyMid.description>
   <PS_IncreaseBeautyMid.jobString>プラスティール手術中</PS_IncreaseBeautyMid.jobString>
-
   <PS_IncreaseBeautyAdv.label>顔面整形：美しさUP（最先端)</PS_IncreaseBeautyAdv.label>
   <PS_IncreaseBeautyAdv.description>外科医の手と審美眼で、患者の顔を今よりも美しくします。</PS_IncreaseBeautyAdv.description>
   <PS_IncreaseBeautyAdv.jobString>プラスティール手術中</PS_IncreaseBeautyAdv.jobString>
-
   <PS_DecreaseBeautyBasic.label>顔面整形：美しさDOWN（基本)</PS_DecreaseBeautyBasic.label>
   <PS_DecreaseBeautyBasic.description>メスで切られた跡や、いくつかの縫合跡が残り、あなたの母親ならまだ愛せる顔になりました。どうしてこんなことをするのか理解できませんが、あなたはあなたのままです</PS_DecreaseBeautyBasic.description>
   <PS_DecreaseBeautyBasic.jobString>プラスティール手術中</PS_DecreaseBeautyBasic.jobString>
-
   <PS_DecreaseBeautyMid.label>顔面整形：美しさDOWN（発展)</PS_DecreaseBeautyMid.label>
   <PS_DecreaseBeautyMid.description>メスで切られた跡や、いくつかの縫合跡が残り、あなたの母親ならまだ愛せる顔になりました。どうしてこんなことをするのか理解できませんが、あなたはあなたのままです</PS_DecreaseBeautyMid.description>
   <PS_DecreaseBeautyMid.jobString>プラスティール手術中</PS_DecreaseBeautyMid.jobString>
-
-
 </LanguageData>

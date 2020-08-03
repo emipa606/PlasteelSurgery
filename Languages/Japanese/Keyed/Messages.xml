@@ -2,11 +2,9 @@
 <LanguageData>
   <PS_Messages_SurgeryResult_Success>{0}は、{1}の{2}の手術を完全に成功しました。</PS_Messages_SurgeryResult_Success>
   <PS_Messages_SurgeryResult_Botched>{0}は、{1}の{2}の手術を失敗した。</PS_Messages_SurgeryResult_Botched>
-
   <PS_Messages_Surgery_Facial>顔面再建</PS_Messages_Surgery_Facial>
   <PS_Messages_Surgery_Body>肉体改造</PS_Messages_Surgery_Body>
   <PS_Messages_Surgery_Laryngoplasty>喉頭整形</PS_Messages_Surgery_Laryngoplasty>
   <PS_Messages_Surgery_ImmunityBoost>免疫増強</PS_Messages_Surgery_ImmunityBoost>
   <PS_Messages_Surgery_SexChange>性転換</PS_Messages_Surgery_SexChange>
-
 </LanguageData>

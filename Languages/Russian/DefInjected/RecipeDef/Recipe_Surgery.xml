@@ -1,58 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- BODY ALTERATION -->
-
   <PS_MakeThin.label>Откачка жира</PS_MakeThin.label>
   <PS_MakeThin.description>Липосакция совместно с резекцией желудка позволяет сбросить вес и удержать его.</PS_MakeThin.description>
   <PS_MakeThin.jobString>Проводит липосакцию</PS_MakeThin.jobString>
-
   <PS_MakeStandard.label>Стандартизация</PS_MakeStandard.label>
   <PS_MakeStandard.description>Удаляет или наращивает ткани мышц и жира, чтобы оставить пациента со стандартным неспецифическим телосложением.</PS_MakeStandard.description>
   <PS_MakeStandard.jobString>Делает пациента таким как все</PS_MakeStandard.jobString>
-
   <PS_MakeLookFemale.label>Операция по феминизации</PS_MakeLookFemale.label>
   <PS_MakeLookFemale.description>Увеличение размера груди и ягодиц позволит вам соответствовать современным женским стандартам красоты, даже если вы парень. Операция чисто эстетическая и не меняет биологический пол пациента.</PS_MakeLookFemale.description>
   <PS_MakeLookFemale.jobString>Вставляет грудные имплантаты</PS_MakeLookFemale.jobString>
-
   <PS_MakeHulk.label>Стимуляция роста мышечной массы</PS_MakeHulk.label>
   <PS_MakeHulk.description>Электростимуляцию мышц вместе со стероидными инъекциями для быстрого развития мышц. Только хирургия и никакого Дня ног!</PS_MakeHulk.description>
   <PS_MakeHulk.jobString>Вводит пациенту инъекции стероидов</PS_MakeHulk.jobString>
-
   <PS_MakeFat.label>Закачка жира</PS_MakeFat.label>
   <PS_MakeFat.description>Инъекции донорского жира замедляют метаболизм пациентов, что позволяет быстро набирать вес.</PS_MakeFat.description>
   <PS_MakeFat.jobString>Вводит пациенту донорский жир</PS_MakeFat.jobString>
-
   <PS_MakeLookMale.label>Операция по брутализации</PS_MakeLookMale.label>
   <PS_MakeLookMale.description>Небольшое наращивание мышц и имплантация волевого подбородка превращает любого хлюпика в настощего мужика, даже если хлюпик - девушка. Операция чисто эстетическая и не меняет биологический пол пациента.</PS_MakeLookMale.description>
   <PS_MakeLookMale.jobString>Пришивает волевой подбородок</PS_MakeLookMale.jobString>
-
   <PS_ChangeSex.label>Коррекция пола</PS_ChangeSex.label>
   <PS_ChangeSex.description>Изменение пола пацианта вопреки божественной воле. Проводится с согласия пациента на его страх и риск.</PS_ChangeSex.description>
   <PS_ChangeSex.jobString>Отрезает там, пришивает тут.</PS_ChangeSex.jobString>
-
-
   <!-- FACE ALTERATION -->
-
   <PS_IncreaseBeautyBasic.label>Увеличить привлекательность</PS_IncreaseBeautyBasic.label>
   <PS_IncreaseBeautyBasic.description>Руки хирурга в тандеме с душой художника создадут нечто новое... нечто, на что более приятно смотреть.</PS_IncreaseBeautyBasic.description>
   <PS_IncreaseBeautyBasic.jobString>Превращает рожу в лицо</PS_IncreaseBeautyBasic.jobString>
-
   <PS_IncreaseBeautyMid.label>Увеличить привлекательность</PS_IncreaseBeautyMid.label>
   <PS_IncreaseBeautyMid.description>Руки хирурга в тандеме с душой художника создадут нечто новое... нечто, на что более приятно смотреть.</PS_IncreaseBeautyMid.description>
   <PS_IncreaseBeautyMid.jobString>Превращает рожу в лицо</PS_IncreaseBeautyMid.jobString>
-
   <PS_IncreaseBeautyAdv.label>Увеличить привлекательность</PS_IncreaseBeautyAdv.label>
   <PS_IncreaseBeautyAdv.description>Руки хирурга в тандеме с душой художника создадут нечто новое... нечто, на что более приятно смотреть.</PS_IncreaseBeautyAdv.description>
   <PS_IncreaseBeautyAdv.jobString>Превращает рожу в лицо</PS_IncreaseBeautyAdv.jobString>
-
   <PS_DecreaseBeautyBasic.label>Изуродовать</PS_DecreaseBeautyBasic.label>
   <PS_DecreaseBeautyBasic.description>Разрез здесь, швы там, несколько ожогов и вот у вас лицо, которое может любить только мать. Не понимаю, кому это может быть нужно, но мы живем в безумном мире.</PS_DecreaseBeautyBasic.description>
   <PS_DecreaseBeautyBasic.jobString>Уродует чужое лицо</PS_DecreaseBeautyBasic.jobString>
-
   <PS_DecreaseBeautyMid.label>Изуродовать</PS_DecreaseBeautyMid.label>
   <PS_DecreaseBeautyMid.description>Разрез здесь, швы там, несколько ожогов и вот у вас лицо, которое может любить только мать. Не понимаю, кому это может быть нужно, но мы живем в безумном мире.</PS_DecreaseBeautyMid.description>
   <PS_DecreaseBeautyMid.jobString>Уродует чужое лицо</PS_DecreaseBeautyMid.jobString>
-
-
 </LanguageData>

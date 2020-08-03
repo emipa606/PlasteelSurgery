@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Misc TRAIT ALTERATION -->
+
+  <PS_Recipes_Surgery_Laryngoplasty.label>Laryngoplasty</PS_Recipes_Surgery_Laryngoplasty.label>
+  <PS_Recipes_Surgery_Laryngoplasty.description>A laryngeal reconstruction surgery that is able to alter or restore a persons voice. Very useful for people who suffer from annoying voices, creepy breathing, or botched laryngoplasties.</PS_Recipes_Surgery_Laryngoplasty.description>
+  <PS_Recipes_Surgery_Laryngoplasty.jobString>Preforming laryngoplasty.</PS_Recipes_Surgery_Laryngoplasty.jobString>
+
+
+  <!-- <Def ParentName="PS_Recipes_Surgery_TraitAlterBase">
+    <defName>PS_Recipes_Surgery_StimulateLegs</defName>
+    <label>Stimulate leg muscles</label>
+    <description>Through the use of small electric shocks to the patient’s legs, ambulatory functions can be improved, increasing overall movement speed. Failure in this surgery can have the opposite effect.</description>
+    <workerClass>PlasteelSurgery.PS_Recipes_Surgery_Laryngoplasty</workerClass>
+    <jobString>Stimulating leg muscles.</jobString>
+    <researchPrerequisite>PS_Research_Laryngoplasty</researchPrerequisite>
+  </Def> -->
+
+  <PS_Recipes_Surgery_ImmunityBoost.label>boost immunity</PS_Recipes_Surgery_ImmunityBoost.label>
+  <PS_Recipes_Surgery_ImmunityBoost.description>Involves the injection of plasteel shavings directly into the bloodstream. If performed correctly the self sterilizing nature of plasteel can improve a patient's immune system. If performed incorrectly it could have the opposite effect.</PS_Recipes_Surgery_ImmunityBoost.description>
+  <PS_Recipes_Surgery_ImmunityBoost.jobString>Boosting immunity.</PS_Recipes_Surgery_ImmunityBoost.jobString>
+
+
+  <!-- BODY ALTERATION -->
+
+  <PS_MakeThin.label>Body Mod: Reduce Fat</PS_MakeThin.label>
+  <PS_MakeThin.description>Uses liposuction in conjecture with stomach stapling to take pounds off and keep them off.</PS_MakeThin.description>
+  <PS_MakeThin.jobString>Preforming plasteel surgery.</PS_MakeThin.jobString>
+
+  <PS_MakeStandard.label>Body Mod: Standardize</PS_MakeStandard.label>
+  <PS_MakeStandard.description>Removes or replaces lose muscle and fat to leave the patient with a standard not special physique.</PS_MakeStandard.description>
+  <PS_MakeStandard.jobString>Preforming plasteel surgery.</PS_MakeStandard.jobString>
+
+  <PS_MakeLookFemale.label>Body Mod: Feminize</PS_MakeLookFemale.label>
+  <PS_MakeLookFemale.description>Gives the patient the appearance of a standard female body without changing actual biological sex.</PS_MakeLookFemale.description>
+  <PS_MakeLookFemale.jobString>Preforming plasteel surgery.</PS_MakeLookFemale.jobString>
+
+  <PS_MakeHulk.label>Body Mod: Stimulate Muscle Growth</PS_MakeHulk.label>
+  <PS_MakeHulk.description>Uses electrodes along with steroid injections to rapidly develope muscle. Warning: Leg day not included!</PS_MakeHulk.description>
+  <PS_MakeHulk.jobString>Preforming plasteel surgery.</PS_MakeHulk.jobString>
+
+  <PS_MakeFat.label>Body Mod: Add Fat</PS_MakeFat.label>
+  <PS_MakeFat.description>Injects donor fat and slows the patients metabolism causing them to gain weight shockingly quickly.</PS_MakeFat.description>
+  <PS_MakeFat.jobString>Preforming plasteel surgery.</PS_MakeFat.jobString>
+
+  <PS_MakeLookMale.label>Body Mod: Masculinize</PS_MakeLookMale.label>
+  <PS_MakeLookMale.description>Gives the patient the appearance of a standard male body without changing actual biological sex.</PS_MakeLookMale.description>
+  <PS_MakeLookMale.jobString>Preforming plasteel surgery.</PS_MakeLookMale.jobString>
+
+  <PS_ChangeSex.label>Body Mod: Sex Change</PS_ChangeSex.label>
+  <PS_ChangeSex.description>Alters the patient's bological sex to be the opposite of what it currently is. This surgery is purely internal and does not effect appearances.</PS_ChangeSex.description>
+  <PS_ChangeSex.jobString>Preforming plasteel surgery.</PS_ChangeSex.jobString>
+
+
+  <!-- FACE ALTERATION -->
+
+  <PS_IncreaseBeautyBasic.label>Facial Reconstruction: Increase Beauty</PS_IncreaseBeautyBasic.label>
+  <PS_IncreaseBeautyBasic.description>With the hands of a surgeon and the soul of an artist, rebuild the patients face into something a little nicer to look at.</PS_IncreaseBeautyBasic.description>
+  <PS_IncreaseBeautyBasic.jobString>Preforming plasteel surgery.</PS_IncreaseBeautyBasic.jobString>
+
+  <PS_IncreaseBeautyMid.label>Facial Reconstruction: Increase Beauty</PS_IncreaseBeautyMid.label>
+  <PS_IncreaseBeautyMid.description>With the hands of a surgeon and the soul of an artist, rebuild the patients face into something a little nicer to look at.</PS_IncreaseBeautyMid.description>
+  <PS_IncreaseBeautyMid.jobString>Preforming plasteel surgery.</PS_IncreaseBeautyMid.jobString>
+
+  <PS_IncreaseBeautyAdv.label>Facial Reconstruction: Increase Beauty</PS_IncreaseBeautyAdv.label>
+  <PS_IncreaseBeautyAdv.description>With the hands of a surgeon and the soul of an artist, rebuild the patients face into something a little nicer to look at.</PS_IncreaseBeautyAdv.description>
+  <PS_IncreaseBeautyAdv.jobString>Preforming plasteel surgery.</PS_IncreaseBeautyAdv.jobString>
+
+  <PS_DecreaseBeautyBasic.label>Facial Reconstruction: Decrease Beauty</PS_DecreaseBeautyBasic.label>
+  <PS_DecreaseBeautyBasic.description>A scalpel cut here, some sutures there, and you've got a face only a mother could love. Not sure why you would do this to somebody, but you do you</PS_DecreaseBeautyBasic.description>
+  <PS_DecreaseBeautyBasic.jobString>Preforming plasteel surgery.</PS_DecreaseBeautyBasic.jobString>
+
+  <PS_DecreaseBeautyMid.label>Facial Reconstruction: Decrease Beauty</PS_DecreaseBeautyMid.label>
+  <PS_DecreaseBeautyMid.description>A scalpel cut here, some sutures there, and you've got a face only a mother could love. Not sure why you would do this to somebody, but you do you</PS_DecreaseBeautyMid.description>
+  <PS_DecreaseBeautyMid.jobString>Preforming plasteel surgery.</PS_DecreaseBeautyMid.jobString>
+
+
+</LanguageData>

@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!-- Research Tabs -->
   <ResearchTabDef>
     <defName>PS_ResearchTab</defName>
     <label>Plasteel Surgery</label>
   </ResearchTabDef>
-
   <ResearchProjectDef>
     <defName>PS_BasicResearch</defName>
     <tab>PS_ResearchTab</tab>
@@ -26,7 +24,6 @@ Decrease- pretty down to ugly</description>
     <researchViewX>0</researchViewX>
     <researchViewY>2</researchViewY>
   </ResearchProjectDef>
-
   <ResearchProjectDef>
     <defName>PS_IntermediateResearch</defName>
     <tab>PS_ResearchTab</tab>
@@ -46,7 +43,6 @@ Decrease- beautiful down to staggeringly ugly</description>
     <researchViewX>1</researchViewX>
     <researchViewY>2</researchViewY>
   </ResearchProjectDef>
-
   <ResearchProjectDef>
     <defName>PS_AdvancedFacialResearch</defName>
     <tab>PS_ResearchTab</tab>
@@ -66,7 +62,6 @@ Decrease- beautiful down to staggeringly ugly</description>
     <researchViewX>2</researchViewX>
     <researchViewY>2</researchViewY>
   </ResearchProjectDef>
-
   <ResearchProjectDef>
     <defName>PS_BodyModResearch</defName>
     <tab>PS_ResearchTab</tab>
@@ -80,7 +75,6 @@ Decrease- beautiful down to staggeringly ugly</description>
     <researchViewX>1</researchViewX>
     <researchViewY>1</researchViewY>
   </ResearchProjectDef>
-
   <ResearchProjectDef>
     <defName>PS_SexModResearch</defName>
     <tab>PS_ResearchTab</tab>
@@ -94,7 +88,6 @@ Decrease- beautiful down to staggeringly ugly</description>
     <researchViewX>2</researchViewX>
     <researchViewY>1</researchViewY>
   </ResearchProjectDef>
-
   <ResearchProjectDef>
     <defName>PS_Research_Laryngoplasty</defName>
     <tab>PS_ResearchTab</tab>
@@ -108,7 +101,6 @@ Decrease- beautiful down to staggeringly ugly</description>
     <researchViewX>1</researchViewX>
     <researchViewY>3</researchViewY>
   </ResearchProjectDef>
-  
   <ResearchProjectDef>
     <defName>PS_Research_ImmuneBoost</defName>
     <tab>PS_ResearchTab</tab>
@@ -122,5 +114,4 @@ Decrease- beautiful down to staggeringly ugly</description>
     <researchViewX>2</researchViewX>
     <researchViewY>3</researchViewY>
   </ResearchProjectDef>
-  
 </Defs>

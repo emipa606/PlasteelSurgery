@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- <PS_HediffDefs_BotchedLaryngoplasty.label>喉頭整形手術の失敗</PS_HediffDefs_BotchedLaryngoplasty.label>
   <PS_HediffDefs_BotchedLaryngoplasty.labelNoun>喉頭整形失敗</PS_HediffDefs_BotchedLaryngoplasty.labelNoun>
   <PS_HediffDefs_BotchedLaryngoplasty.comps.HediffComp_GetsPermanent.permanentLabel>手術痕</PS_HediffDefs_BotchedLaryngoplasty.comps.HediffComp_GetsPermanent.permanentLabel>
@@ -8,8 +7,5 @@
   <PS_HediffDefs_BotchedLaryngoplasty.comps.HediffComp_TendDuration.labelTendedWellInner>縫合</PS_HediffDefs_BotchedLaryngoplasty.comps.HediffComp_TendDuration.labelTendedWellInner>
   <PS_HediffDefs_BotchedLaryngoplasty.comps.HediffComp_TendDuration.labelSolidTendedWell>セット</PS_HediffDefs_BotchedLaryngoplasty.comps.HediffComp_TendDuration.labelSolidTendedWell>
   <PS_HediffDefs_BotchedLaryngoplasty.injuryProps.destroyedLabel>喉が破壊された</PS_HediffDefs_BotchedLaryngoplasty.injuryProps.destroyedLabel> -->
-
   <PS_HediffDefs_BotchedLaryngoplasty.label>喉頭整形失敗</PS_HediffDefs_BotchedLaryngoplasty.label>
-
-
 </LanguageData>

@@ -1,23 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Research Tabs -->
-
-  
-	<PS_BasicResearch.label>Базовая челюстно-лицевая хирургия</PS_BasicResearch.label>
-	<PS_BasicResearch.description>Исследование самых простых техник челюстно-лицевой хирургии.\n\nПозволяет\nулучшать внешность пациента с уровня Уродство до уровня Обычный (нет черт характера);\nухудшать внешность с уровня Красота до уровня Уродство.</PS_BasicResearch.description>
-
-	<PS_IntermediateResearch.label>Улучшенная челюстно-лицевая хирургия</PS_IntermediateResearch.label>
-	<PS_IntermediateResearch.description>Исследование более продвинутых техник челюстно-лицевой хирургии.\n\nПозволяет\nулучшать внешность пациента с уровня Уродство до уровня Красота;\nухудшать внешность с уровня Невероятная красота до уровня Невероятное уродство.</PS_IntermediateResearch.description>
-
-	<PS_AdvancedFacialResearch.label>Передовая челюстно-лицевая хирургия</PS_AdvancedFacialResearch.label>
-	<PS_AdvancedFacialResearch.description>Исследование самых современных техник челюстно-лицевой хирургии.\nБольше не будет красивых и безобразных людей (или будут?), под ножом пласталевого хирурга даже самый отчаянный уродец, которого сторонятся все в колонии, сможет стать эталоном красоты.</PS_AdvancedFacialResearch.description>
-
-	<PS_BodyModResearch.label>Пласталевая хирургия тела</PS_BodyModResearch.label>
-	<PS_BodyModResearch.description>Исследование принципов коррекции фигуры пациента путем откачки жира и внедрения в тело пласталевых имплантатов.</PS_BodyModResearch.description>
-
-	<PS_SexModResearch.label>Хирургическая коррекция пола</PS_SexModResearch.label>
-	<PS_SexModResearch.description>Исследование методик изменения биологического пола путем хирургических операций. Подобная операция позвояет сменить пол, но и не влияет на тип фигуры.\n\nДля полной гармонии внешнего и внутреннего мира необходимо сначала сменить пол, а потом провести операцию по коррекции фигуры. Или наоборот.</PS_SexModResearch.description>
-
-
+  <PS_BasicResearch.label>Базовая челюстно-лицевая хирургия</PS_BasicResearch.label>
+  <PS_BasicResearch.description>Исследование самых простых техник челюстно-лицевой хирургии.\n\nПозволяет\nулучшать внешность пациента с уровня Уродство до уровня Обычный (нет черт характера);\nухудшать внешность с уровня Красота до уровня Уродство.</PS_BasicResearch.description>
+  <PS_IntermediateResearch.label>Улучшенная челюстно-лицевая хирургия</PS_IntermediateResearch.label>
+  <PS_IntermediateResearch.description>Исследование более продвинутых техник челюстно-лицевой хирургии.\n\nПозволяет\nулучшать внешность пациента с уровня Уродство до уровня Красота;\nухудшать внешность с уровня Невероятная красота до уровня Невероятное уродство.</PS_IntermediateResearch.description>
+  <PS_AdvancedFacialResearch.label>Передовая челюстно-лицевая хирургия</PS_AdvancedFacialResearch.label>
+  <PS_AdvancedFacialResearch.description>Исследование самых современных техник челюстно-лицевой хирургии.\nБольше не будет красивых и безобразных людей (или будут?), под ножом пласталевого хирурга даже самый отчаянный уродец, которого сторонятся все в колонии, сможет стать эталоном красоты.</PS_AdvancedFacialResearch.description>
+  <PS_BodyModResearch.label>Пласталевая хирургия тела</PS_BodyModResearch.label>
+  <PS_BodyModResearch.description>Исследование принципов коррекции фигуры пациента путем откачки жира и внедрения в тело пласталевых имплантатов.</PS_BodyModResearch.description>
+  <PS_SexModResearch.label>Хирургическая коррекция пола</PS_SexModResearch.label>
+  <PS_SexModResearch.description>Исследование методик изменения биологического пола путем хирургических операций. Подобная операция позвояет сменить пол, но и не влияет на тип фигуры.\n\nДля полной гармонии внешнего и внутреннего мира необходимо сначала сменить пол, а потом провести операцию по коррекции фигуры. Или наоборот.</PS_SexModResearch.description>
 </LanguageData>

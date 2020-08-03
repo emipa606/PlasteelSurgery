@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Defs>
-  <!--<HediffDef Name="PS_HediffDefs_BotchBase" Abstract="True">
+<LanguageData>
+
+  <!-- <HediffDef Name="PS_HediffDefs_BotchBase" Abstract="True">
     <hediffClass>Hediff_Injury</hediffClass>
     <tendable>false</tendable>
     <displayWound>true</displayWound>
@@ -27,32 +28,9 @@
       <canMerge>false</canMerge>
       <destroyedLabel>Destroyed</destroyedLabel>
     </injuryProps>
-  </HediffDef>-->
-  <HediffDef ParentName="DiseaseBase">
-    <defName>PS_HediffDefs_BotchedLaryngoplasty</defName>
-    <label>botched laryngoplasty</label>
-    <description>botched laryngoplasty</description>
-    <defaultLabelColor>(0.65, 0.3, 0.9)</defaultLabelColor>
-    <stages>
-      <li>
-        <painOffset>0.15</painOffset>
-        <capMods>
-          <li>
-            <capacity>Talking</capacity>
-            <offset>-1</offset>
-          </li>
-        </capMods>
-      </li>
-    </stages>
-  </HediffDef>
-  <!--<HediffDef ParentName="AddedBodyPartBase">
-    <defName>PS_Hediff_HadPlasteelSurgery</defName>
-    <label>plasteel surgery</label>
-    <labelNoun>plasteel surgery</labelNoun>
-    <addedPartProps>
-      <solid>false</solid>
-      <partEfficiency>1.0</partEfficiency>
-      <betterThanNatural>true</betterThanNatural>
-    </addedPartProps>
-  </HediffDef>-->
-</Defs>
+  </HediffDef> -->
+
+  <PS_HediffDefs_BotchedLaryngoplasty.label>botched laryngoplasty</PS_HediffDefs_BotchedLaryngoplasty.label>
+
+
+</LanguageData>

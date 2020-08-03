@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!--<HediffDef Name="PS_HediffDefs_BotchBase" Abstract="True">
     <hediffClass>Hediff_Injury</hediffClass>
     <tendable>false</tendable>
@@ -29,8 +28,6 @@
       <destroyedLabel>Destroyed</destroyedLabel>
     </injuryProps>
   </HediffDef>-->
-
-
   <HediffDef ParentName="DiseaseBase">
     <defName>PS_HediffDefs_BotchedLaryngoplasty</defName>
     <label>botched laryngoplasty</label>
@@ -47,7 +44,6 @@
       </li>
     </stages>
   </HediffDef>
-
   <!--<HediffDef ParentName="AddedBodyPartBase">
     <defName>PS_Hediff_HadPlasteelSurgery</defName>
     <label>plasteel surgery</label>

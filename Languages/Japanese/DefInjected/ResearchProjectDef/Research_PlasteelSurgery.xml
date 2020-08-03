@@ -1,28 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Research Tabs -->
-
   <PS_BasicResearch.label>顔面整形（基本)</PS_BasicResearch.label>
   <PS_BasicResearch.description>[PlasteelSurgery]\n最も基本的な整形手術の技術研究を行います。\n\n可能になる顔面整形：\n\n美しさを上昇：\n醜いから普通まで\n\n美しさを低下：\n可愛いから醜いまで</PS_BasicResearch.description>
-
   <PS_IntermediateResearch.label>顔面整形（発展)</PS_IntermediateResearch.label>
   <PS_IntermediateResearch.description>[PlasteelSurgery]\nより発展した整形手術の技術研究を行います。\n\n可能になる顔面整形：\n\n美しさを上昇：\n醜いから可愛いまで\n\n美しさを低下：\n美しいからひどく醜いまで\n\n美しいから可愛いへと、醜いからひどく醜いに低下すると戻せないので注意</PS_IntermediateResearch.description>
-
   <PS_AdvancedFacialResearch.label>顔面整形（先進)</PS_AdvancedFacialResearch.label>
   <PS_AdvancedFacialResearch.description>[PlasteelSurgery]\n最先端の整形手術の技術研究を行います。\n\n可能になる顔面整形：\n\n美しさを上昇：\nひどく醜いから美しいまで\n\n美しさを低下：\n美しいからひどく醜いまで\n\n全ての段階に戻す事が可能</PS_AdvancedFacialResearch.description>
-
   <PS_BodyModResearch.label>肉体改造</PS_BodyModResearch.label>
   <PS_BodyModResearch.description>[PlasteelSurgery]\n体重と骨格構造の変化に関する研究です。患者の体型を変更可能になります。</PS_BodyModResearch.description>
-
   <PS_SexModResearch.label>性転換</PS_SexModResearch.label>
   <PS_SexModResearch.description>[PlasteelSurgery]\n生物学的な性別の研究です。性転換手術(TransSexualSurgery)が可能になります。\nこの手術は純粋に内臓器官に対して行われ、肉体的な外観には影響を与えません（元男性なら肉体は男性のまま)。</PS_SexModResearch.description>
-
   <PS_Research_Laryngoplasty.label>喉頭整形手術</PS_Research_Laryngoplasty.label>
   <PS_Research_Laryngoplasty.description>人の声を変更または復元することができる喉頭再建手術です。気に障る声、気持ち悪い息づかい、または喉頭整形失敗に苦しんでいる人には非常に便利でしょう。</PS_Research_Laryngoplasty.description>
-
   <PS_Research_ImmuneBoost.label>免疫増強治療</PS_Research_ImmuneBoost.label>
   <PS_Research_ImmuneBoost.description>プスチールを薬瓶に加工している時に出た削りカスによって起きた不幸な事故で、研究者たちは、血液中でもプラスチールの自己滅菌特性が有効であることを発見しました。これは、免疫を増強する治療方法の開発に繋がるでしょう。病気であると確認された人にとって最適です。</PS_Research_ImmuneBoost.description>
-
-
 </LanguageData>
