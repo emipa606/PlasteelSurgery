@@ -119,7 +119,7 @@
     <description>Removes or replaces loose muscle and fat to leave the patient with a standard not special physique.</description>
     <modExtensions>
       <li Class="PlasteelSurgery.SurgeryDef">
-      	<!-- empty on purpose. Case is covered in code, distingiushing gender -->
+        <!-- empty on purpose. Case is covered in code, distingiushing gender -->
       </li>
     </modExtensions>
   </RecipeDef>

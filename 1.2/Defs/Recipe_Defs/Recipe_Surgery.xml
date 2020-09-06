@@ -49,9 +49,9 @@
   <RecipeDef ParentName="PS_Recipes_Surgery_TraitAlterBase">
     <defName>PS_Recipes_Surgery_Laryngoplasty</defName>
     <label>Laryngoplasty</label>
-    <description>A laryngeal reconstruction surgery that is able to alter or restore a persons voice. Very useful for people who suffer from annoying voices, creepy breathing, or botched laryngoplasties.</description>
+    <description>A laryngeal reconstruction surgery that is able to alter or restore a persons voice. Very useful for people suffering from annoying voices, creepy breathing, or botched laryngoplasties.</description>
     <workerClass>PlasteelSurgery.PS_Recipes_Surgery_Laryngoplasty</workerClass>
-    <jobString>Preforming laryngoplasty.</jobString>
+    <jobString>Performing laryngoplasty.</jobString>
     <researchPrerequisite>PS_Research_Laryngoplasty</researchPrerequisite>
   </RecipeDef>
   <!--<Def ParentName="PS_Recipes_Surgery_TraitAlterBase">
@@ -72,7 +72,7 @@
   </RecipeDef>
   <!-- =================== BODY ALTERATION ======================-->
   <RecipeDef Abstract="True" Name="PL_AlterBodySurgery" ParentName="PlasteelSurgery">
-    <jobString>Preforming plasteel surgery.</jobString>
+    <jobString>Performing plasteel surgery.</jobString>
     <workAmount>8000</workAmount>
     <skillRequirements>
       <Medicine>5</Medicine>
@@ -101,53 +101,78 @@
     </appliedOnFixedBodyParts>
     <hideBodyPartNames>true</hideBodyPartNames>
     <researchPrerequisite>PS_BodyModResearch</researchPrerequisite>
+    <workerClass>PlasteelSurgery.BaseAlterBody</workerClass>
   </RecipeDef>
   <RecipeDef ParentName="PL_AlterBodySurgery">
     <defName>PS_MakeThin</defName>
     <label>Body Mod: Reduce Fat</label>
     <description>Uses liposuction in conjecture with stomach stapling to take pounds off and keep them off.</description>
-    <workerClass>PlasteelSurgery.MakeThin</workerClass>
+    <modExtensions>
+      <li Class="PlasteelSurgery.SurgeryDef">
+        <bodyType>Thin</bodyType>
+      </li>
+    </modExtensions>
   </RecipeDef>
   <RecipeDef ParentName="PL_AlterBodySurgery">
     <defName>PS_MakeStandard</defName>
     <label>Body Mod: Standardize</label>
-    <description>Removes or replaces lose muscle and fat to leave the patient with a standard not special physique.</description>
-    <workerClass>PlasteelSurgery.MakeStandard</workerClass>
+    <description>Removes or replaces loose muscle and fat to leave the patient with a standard not special physique.</description>
+    <modExtensions>
+      <li Class="PlasteelSurgery.SurgeryDef">
+        <!-- empty on purpose. Case is covered in code, distingiushing gender -->
+      </li>
+    </modExtensions>
   </RecipeDef>
   <RecipeDef ParentName="PL_AlterBodySurgery">
     <defName>PS_MakeLookFemale</defName>
     <label>Body Mod: Feminize</label>
     <description>Gives the patient the appearance of a standard female body without changing actual biological sex.</description>
-    <workerClass>PlasteelSurgery.MakeFemale</workerClass>
+    <modExtensions>
+      <li Class="PlasteelSurgery.SurgeryDef">
+        <bodyType>Female</bodyType>
+      </li>
+    </modExtensions>
   </RecipeDef>
   <RecipeDef ParentName="PL_AlterBodySurgery">
     <defName>PS_MakeHulk</defName>
     <label>Body Mod: Stimulate Muscle Growth</label>
     <description>Uses electrodes along with steroid injections to rapidly develope muscle. Warning: Leg day not included!</description>
-    <workerClass>PlasteelSurgery.MakeHulk</workerClass>
+    <modExtensions>
+      <li Class="PlasteelSurgery.SurgeryDef">
+        <bodyType>Hulk</bodyType>
+      </li>
+    </modExtensions>
   </RecipeDef>
   <RecipeDef ParentName="PL_AlterBodySurgery">
     <defName>PS_MakeFat</defName>
     <label>Body Mod: Add Fat</label>
     <description>Injects donor fat and slows the patients metabolism causing them to gain weight shockingly quickly.</description>
-    <workerClass>PlasteelSurgery.MakeFat</workerClass>
+    <modExtensions>
+      <li Class="PlasteelSurgery.SurgeryDef">
+        <bodyType>Fat</bodyType>
+      </li>
+    </modExtensions>
   </RecipeDef>
   <RecipeDef ParentName="PL_AlterBodySurgery">
     <defName>PS_MakeLookMale</defName>
     <label>Body Mod: Masculinize</label>
     <description>Gives the patient the appearance of a standard male body without changing actual biological sex.</description>
-    <workerClass>PlasteelSurgery.MakeMale</workerClass>
+    <modExtensions>
+      <li Class="PlasteelSurgery.SurgeryDef">
+        <bodyType>Male</bodyType>
+      </li>
+    </modExtensions>
   </RecipeDef>
   <RecipeDef ParentName="PL_AlterBodySurgery">
     <defName>PS_ChangeSex</defName>
     <label>Body Mod: Sex Change</label>
     <description>Alters the patient's bological sex to be the opposite of what it currently is. This surgery is purely internal and does not effect appearances.</description>
-    <workerClass>PlasteelSurgery.BaseAlterSex</workerClass>
+    <workerClass Inherit="false">PlasteelSurgery.BaseAlterSex</workerClass>
     <researchPrerequisite>PS_SexModResearch</researchPrerequisite>
   </RecipeDef>
   <!-- =================== FACE ALTERATION ======================-->
   <RecipeDef Abstract="True" Name="PL_AlterFaceSurgeryBase" ParentName="PlasteelSurgery">
-    <jobString>Preforming plasteel surgery.</jobString>
+    <jobString>Performing plasteel surgery.</jobString>
     <workAmount>8000</workAmount>
     <skillRequirements>
       <Medicine>10</Medicine>
@@ -214,7 +239,7 @@
   </RecipeDef>
   <RecipeDef Abstract="True" Name="PS_DecreaseBeautyBase" ParentName="PL_AlterFaceSurgeryBase">
     <label>Facial Reconstruction: Decrease Beauty</label>
-    <description>A scalpel cut here, some sutures there, and you've got a face only a mother could love. Not sure why you would do this to somebody, but you do you</description>
+    <description>A scalpel cut here, some sutures there, and you've got a face only a mother could love. Not sure why you would do this to somebody, but you do you.</description>
     <researchPrerequisite>PS_AdvancedFacialResearch</researchPrerequisite>
   </RecipeDef>
   <RecipeDef ParentName="PS_DecreaseBeautyBase">

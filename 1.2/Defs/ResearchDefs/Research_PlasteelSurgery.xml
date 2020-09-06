@@ -9,13 +9,13 @@
     <defName>PS_BasicResearch</defName>
     <tab>PS_ResearchTab</tab>
     <label>basic reconstruction</label>
-    <description>Research into the most basic plastic surgery techniques. 
+    <description>Research the most basic plastic surgery techniques. 
 
 Allows change of beauty from: 
 
 Increase- ugly to plain
 
-Decrease- pretty down to ugly</description>
+Decrease- pretty to ugly</description>
     <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -28,13 +28,13 @@ Decrease- pretty down to ugly</description>
     <defName>PS_IntermediateResearch</defName>
     <tab>PS_ResearchTab</tab>
     <label>intermediate reconstruction</label>
-    <description>Research into intermediate plastic surgery techniques.
+    <description>Research intermediate plastic surgery techniques.
 
 Allows change of beauty from:
 
-Increase- ugly up to pretty
+Increase- ugly to pretty
 
-Decrease- beautiful down to staggeringly ugly</description>
+Decrease- beautiful to staggeringly ugly</description>
     <baseCost>2000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -47,13 +47,13 @@ Decrease- beautiful down to staggeringly ugly</description>
     <defName>PS_AdvancedFacialResearch</defName>
     <tab>PS_ResearchTab</tab>
     <label>advanced reconstruction</label>
-    <description>Research into the most advanced facial reconstruction surgery techniques.
+    <description>Research the most advanced facial reconstruction surgery techniques.
 
 Allows change of beauty from:
 
-Increase- staggeringly ugly up to beautiful
+Increase- staggeringly ugly to beautiful
 
-Decrease- beautiful down to staggeringly ugly</description>
+Decrease- beautiful to staggeringly ugly</description>
     <baseCost>4000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -66,7 +66,7 @@ Decrease- beautiful down to staggeringly ugly</description>
     <defName>PS_BodyModResearch</defName>
     <tab>PS_ResearchTab</tab>
     <label>body modification</label>
-    <description>Research into alteration of weight and physical build. Allows for changes to the patient's body type.</description>
+    <description>Research alteration of weight and physical build. Allows for changes to the patient's body type.</description>
     <baseCost>1800</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -79,7 +79,7 @@ Decrease- beautiful down to staggeringly ugly</description>
     <defName>PS_SexModResearch</defName>
     <tab>PS_ResearchTab</tab>
     <label>sex reassignment</label>
-    <description>Research into alteration of biological sex. Allows for sex change surgeries. This surgery is purely internal and does not affect appearances.</description>
+    <description>Research alteration of biological sex. Allows for sex change surgeries. This surgery is purely internal and does not affect appearances.</description>
     <baseCost>3000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
@@ -92,7 +92,7 @@ Decrease- beautiful down to staggeringly ugly</description>
     <defName>PS_Research_Laryngoplasty</defName>
     <tab>PS_ResearchTab</tab>
     <label>laryngoplasty</label>
-    <description>A laryngeal reconstruction surgery that is able to alter or restore a persons voice. Very useful for people who suffer from annoying voices, creepy breathing, or botched laryngoplasties.</description>
+    <description>A laryngeal reconstruction surgery able to alter or restore a persons voice. Very useful for people who suffer from annoying voices, creepy breathing, or botched laryngoplasties.</description>
     <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>

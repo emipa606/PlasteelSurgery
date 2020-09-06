@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlasteelSurgery", "PlasteelSurgery.csproj", "{480AE0E2-07BB-4AA8-96A3-C11F2F98D007}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlasteelSurgery", "PlasteelSurgery\PlasteelSurgery.csproj", "{480AE0E2-07BB-4AA8-96A3-C11F2F98D007}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

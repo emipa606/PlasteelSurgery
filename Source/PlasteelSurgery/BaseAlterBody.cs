@@ -20,11 +20,8 @@ namespace PlasteelSurgery
         {
             if (pawn?.story?.bodyType == null)
                 yield break;
-
-
             if (recipe.GetModExtension<SurgeryDef>().gender != 0 && pawn.gender != recipe.GetModExtension<SurgeryDef>().gender)
                 yield break;
-
             var currentBody = GetCurrentBodyType(pawn);
 
             if (currentBody == GetTargetBody(IsMale: pawn.gender == Gender.Male, recipe.GetModExtension<SurgeryDef>().bodyType))
