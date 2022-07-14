@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Plasteel Surgery (Continued)</name>
   <packageId>Mlie.PlasteelSurgery</packageId>
@@ -12,36 +12,40 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Neon1028s
 https://steamcommunity.com/sharedfiles/filedetails/?id=1569056149
 
 - Added support for modifying BB-bodys, thanks HR-SP!
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/PlasteelSurgery][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 *** NOTE: This mod is out of date as of 1.1 ***
 Mlie being the awesome person they are has made an update that can be found here:
 https://steamcommunity.com/sharedfiles/filedetails/?id=2018276375
 
-In a world with space travel, cryo freezing, and hats why should anyone have to be ugly? New research into the medical applications of plasteel has resulted in advanced surgical techniques to allow doctors to alter a colonist&apos;s body type, sex, or even beauty. Each surgery will require some plasteel, industrial medicine or better, and a good surgeon who&apos;s got a little bit of an artistic side. 
+In a world with space travel, cryo freezing, and hats why should anyone have to be ugly? New research into the medical applications of plasteel has resulted in advanced surgical techniques to allow doctors to alter a colonist's body type, sex, or even beauty. Each surgery will require some plasteel, industrial medicine or better, and a good surgeon who's got a little bit of an artistic side. 
 
 **NOTE: If you want to change hair or face you will need my other mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1570710062]Barber Pod[/url]**
 
 Includes:
 
-Body Modification: Unlocks surgeries to change a person&apos;s body type to Fat, Thin, Hulking, Masculine, or Feminine. 
+Body Modification: Unlocks surgeries to change a person's body type to Fat, Thin, Hulking, Masculine, or Feminine. 
 
-Sex Reassignment: Change a pawn&apos;s biological sex. (This does not change their body type)
+Sex Reassignment: Change a pawn's biological sex. (This does not change their body type)
 
 Laryngoplasty: Can fix an Annoying Voice, Creepy Breathing or a botched laryngoplasty.
 
@@ -56,12 +60,12 @@ Intermediate:
 Advanced: 
     Staggeringly Ugly ↔ Ugly ↔ Plain ↔ Pretty ↔ Beautiful
 
-Compatibility: This mod can be added or removed from existing saves with out problem. It should be compatible with all mods and has been tested against several. If you happen to find a mod it doesn&apos;t work with please leave a post on this mod&apos;s Steam Workshop Discussion page.
+Compatibility: This mod can be added or removed from existing saves with out problem. It should be compatible with all mods and has been tested against several. If you happen to find a mod it doesn't work with please leave a post on this mod's Steam Workshop Discussion page.
 
-Known Problems: Changing the sex of a pawn who is in a relationship can have some side effects. If the new sex is not the preferred sex of the partner (ie. taking a hetero man-woman couple and changing the woman to a man) they will not automatically break up and will still share a bed, but it looks like they stop &quot;getting some lovin&apos;&quot;.
+Known Problems: Changing the sex of a pawn who is in a relationship can have some side effects. If the new sex is not the preferred sex of the partner (ie. taking a hetero man-woman couple and changing the woman to a man) they will not automatically break up and will still share a bed, but it looks like they stop "getting some lovin'".
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -72,4 +76,3 @@ Known Problems: Changing the sex of a pawn who is in a relationship can have som
 [/list]
 </description>
 </ModMetaData>
-
