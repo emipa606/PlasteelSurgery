@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Misc TRAIT ALTERATION -->
+  <PS_Recipes_Surgery_Laryngoplasty.label>喉成形术</PS_Recipes_Surgery_Laryngoplasty.label>
+  <PS_Recipes_Surgery_Laryngoplasty.description>喉部重塑手术可改变或恢复一个人的声线。对于那些有着恼人嗓音、怪异呼吸声或者做过失败的喉成形术的人们来说，是莫大的福音。</PS_Recipes_Surgery_Laryngoplasty.description>
+  <PS_Recipes_Surgery_Laryngoplasty.jobString>实施喉成形术.</PS_Recipes_Surgery_Laryngoplasty.jobString>
+  <PS_Recipes_Surgery_ImmunityBoost.label>促进免疫</PS_Recipes_Surgery_ImmunityBoost.label>
+  <PS_Recipes_Surgery_ImmunityBoost.description>将塑钢薄屑直接注入血管中。若正确生效的话，塑钢本身的抗菌属性能增强患者的免疫系统，若不成功，则会适得其反。</PS_Recipes_Surgery_ImmunityBoost.description>
+  <PS_Recipes_Surgery_ImmunityBoost.jobString>实施免疫促进技术</PS_Recipes_Surgery_ImmunityBoost.jobString>
+  <!-- BODY ALTERATION -->
+  <PS_MakeThin.label>塑体:减肥</PS_MakeThin.label>
+  <PS_MakeThin.description>运用抽脂以及肠胃吻合术来使患者快速减重并维持效果。</PS_MakeThin.description>
+  <PS_MakeThin.jobString>实施减肥手术</PS_MakeThin.jobString>
+  <PS_MakeStandard.label>塑体:标准化</PS_MakeStandard.label>
+  <PS_MakeStandard.description>移除、替换、修补，将肌肉和脂肪都改造成平均量和标准比例。</PS_MakeStandard.description>
+  <PS_MakeStandard.jobString>实施标准化塑形手术</PS_MakeStandard.jobString>
+  <PS_MakeLookFemale.label>塑体:女体化</PS_MakeLookFemale.label>
+  <PS_MakeLookFemale.description>让患者在不用改变生理性别就能拥有标准的女性身体。</PS_MakeLookFemale.description>
+  <PS_MakeLookFemale.jobString>实施女体化手术</PS_MakeLookFemale.jobString>
+  <PS_MakeHulk.label>塑体:增肌</PS_MakeHulk.label>
+  <PS_MakeHulk.description>通过电刺激技术和类固醇注入来促进上半身肌肉的快速增长。</PS_MakeHulk.description>
+  <PS_MakeHulk.jobString>实施增肌塑形手术</PS_MakeHulk.jobString>
+  <PS_MakeFat.label>塑体:增肥</PS_MakeFat.label>
+  <PS_MakeFat.description>运用脂肪移植以及减缓患者生陈代谢来促进患者快速地增加体重。</PS_MakeFat.description>
+  <PS_MakeFat.jobString>实施增肥手术</PS_MakeFat.jobString>
+  <PS_MakeLookMale.label>塑体:男体化</PS_MakeLookMale.label>
+  <PS_MakeLookMale.description>让患者在不用改变生理性别就能拥有标准的男性身体。</PS_MakeLookMale.description>
+  <PS_MakeLookMale.jobString>实施男体化手术</PS_MakeLookMale.jobString>
+  <PS_ChangeSex.label>塑体:变性</PS_ChangeSex.label>
+  <PS_ChangeSex.description>转换患者的生理性别。只更变内部和生殖系统，外观不会变化。</PS_ChangeSex.description>
+  <PS_ChangeSex.jobString>实施变性手术</PS_ChangeSex.jobString>
+  <!-- FACE ALTERATION -->
+  <PS_IncreaseBeautyBasic.label>整容:美化</PS_IncreaseBeautyBasic.label>
+  <PS_IncreaseBeautyBasic.description>用那双医生的巧手，和艺术家般的灵魂，来为患者打造一张更美好的面容。</PS_IncreaseBeautyBasic.description>
+  <PS_IncreaseBeautyBasic.jobString>实施整容手术</PS_IncreaseBeautyBasic.jobString>
+  <PS_IncreaseBeautyMid.label>整容:美化</PS_IncreaseBeautyMid.label>
+  <PS_IncreaseBeautyMid.description>用那双医生的巧手，和艺术家般的灵魂，来为患者打造一张更美好的面容。</PS_IncreaseBeautyMid.description>
+  <PS_IncreaseBeautyMid.jobString>实施整容手术</PS_IncreaseBeautyMid.jobString>
+  <PS_IncreaseBeautyAdv.label>整容:美化</PS_IncreaseBeautyAdv.label>
+  <PS_IncreaseBeautyAdv.description>用那双医生的巧手，和艺术家般的灵魂，来为患者打造一张更美好的面容。</PS_IncreaseBeautyAdv.description>
+  <PS_IncreaseBeautyAdv.jobString>实施整容手术</PS_IncreaseBeautyAdv.jobString>
+  <PS_DecreaseBeautyBasic.label>整容:丑化</PS_DecreaseBeautyBasic.label>
+  <PS_DecreaseBeautyBasic.description>这里一刀，那里一凿，手术对象将会得到一张只有他妈才会爱的脸。不太确定你干嘛要对别人干这事，不过爱干就干吧。</PS_DecreaseBeautyBasic.description>
+  <PS_DecreaseBeautyBasic.jobString>实施整容手术</PS_DecreaseBeautyBasic.jobString>
+  <PS_DecreaseBeautyMid.label>整容:丑化</PS_DecreaseBeautyMid.label>
+  <PS_DecreaseBeautyMid.description>这里一刀，那里一凿，手术对象将会得到一张只有他妈才会爱的脸。不太确定你干嘛要对别人干这事，不过爱干就干吧。</PS_DecreaseBeautyMid.description>
+  <PS_DecreaseBeautyMid.jobString>实施整容手术</PS_DecreaseBeautyMid.jobString>
+</LanguageData>

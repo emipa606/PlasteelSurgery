@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Research Tabs -->
+  <PS_BasicResearch.label>基础重构</PS_BasicResearch.label>
+  <PS_BasicResearch.description>研究最基础的塑形技术。
+
+解锁容貌修整： 
+
+美化- 从丑陋到平平无奇
+
+丑化- 从俊俏到丑陋</PS_BasicResearch.description>
+  <PS_IntermediateResearch.label>中级重构</PS_IntermediateResearch.label>
+  <PS_IntermediateResearch.description>研究中级的塑形技术。
+
+解锁容貌修整：
+
+美化- 从丑陋到沉鱼落雁
+
+丑化- 从沉鱼落雁到丑绝人寰</PS_IntermediateResearch.description>
+  <PS_AdvancedFacialResearch.label>进阶重构</PS_AdvancedFacialResearch.label>
+  <PS_AdvancedFacialResearch.description>研究先进的塑形技术。
+
+解锁容貌修整：
+
+美化- 从丑绝人寰到沉鱼落雁
+
+丑化- 从沉鱼落雁到丑绝人寰</PS_AdvancedFacialResearch.description>
+  <PS_BodyModResearch.label>肢体塑形</PS_BodyModResearch.label>
+  <PS_BodyModResearch.description>研究体重调整和体型塑造的技术。允许变更患者的体格。</PS_BodyModResearch.description>
+  <PS_SexModResearch.label>性别重赋</PS_SexModResearch.label>
+  <PS_SexModResearch.description>研究生理性别变更技术。允许变性手术，但只变生殖和内部系统，不影响外观。</PS_SexModResearch.description>
+  <PS_Research_Laryngoplasty.label>喉成形术</PS_Research_Laryngoplasty.label>
+  <PS_Research_Laryngoplasty.description>喉部重塑手术可改变或恢复一个人的声线。对于那些有着恼人嗓音、怪异呼吸声或者做过失败的喉成形术的人们来说，是莫大的福音。</PS_Research_Laryngoplasty.description>
+  <PS_Research_ImmuneBoost.label>免疫促进</PS_Research_ImmuneBoost.label>
+  <PS_Research_ImmuneBoost.description>A将塑钢薄屑直接注入血管中。若正确生效的话，塑钢本身的抗菌属性能增强患者的免疫系统。体弱多病者的福音。</PS_Research_ImmuneBoost.description>
+</LanguageData>

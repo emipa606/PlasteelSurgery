@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PS_Messages_SurgeryResult_Success>{0} 成功的完成了{1}的{2}.</PS_Messages_SurgeryResult_Success>
+  <PS_Messages_SurgeryResult_Botched>{0} 搞砸了{1}的{2}.</PS_Messages_SurgeryResult_Botched>
+  <PS_Messages_Surgery_Facial>面部重建手术</PS_Messages_Surgery_Facial>
+  <PS_Messages_Surgery_Body>身体重建手术</PS_Messages_Surgery_Body>
+  <PS_Messages_Surgery_Laryngoplasty>喉成形术</PS_Messages_Surgery_Laryngoplasty>
+  <PS_Messages_Surgery_ImmunityBoost>免疫增强手术</PS_Messages_Surgery_ImmunityBoost>
+  <PS_Messages_Surgery_SexChange>变性手术</PS_Messages_Surgery_SexChange>
+</LanguageData>
