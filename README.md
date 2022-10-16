@@ -6,6 +6,7 @@ Update of Neon1028s
 https://steamcommunity.com/sharedfiles/filedetails/?id=1569056149
 
 - Added support for modifying BB-bodys, thanks HR-SP!
+- Chinese translation added, thank you 法师Mage!
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 

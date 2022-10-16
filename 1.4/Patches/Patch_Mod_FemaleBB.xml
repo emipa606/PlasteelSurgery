@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>FemaleBB BodyType for Human</li>
+    </mods>
+    <match Class="PatchOperationConditional">
+      <xpath>/Defs/RecipeDef[@Name="PL_AlterBodySurgery"]</xpath>
+      <match Class="PatchOperationInsert">
+        <xpath>/Defs/RecipeDef[@Name="PL_AlterBodySurgery"]</xpath>
+        <value>
+          <RecipeDef ParentName="PL_AlterBodySurgery">
+            <defName>PS_MakeBB</defName>
+            <label>Body Mod: Make BB</label>
+            <description>Titties!</description>
+            <modExtensions>
+              <li Class="PlasteelSurgery.SurgeryDef">
+                <bodyType>FemaleBB</bodyType>
+                <gender>Female</gender>
+              </li>
+            </modExtensions>
+          </RecipeDef>
+        </value>
+      </match>
+    </match>
+  </Operation>
+</Patch>

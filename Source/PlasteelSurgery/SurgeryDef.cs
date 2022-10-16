@@ -1,11 +1,10 @@
 using RimWorld;
 using Verse;
 
-namespace PlasteelSurgery
+namespace PlasteelSurgery;
+
+public class SurgeryDef : DefModExtension
 {
-    public class SurgeryDef : DefModExtension
-    {
-        public BodyTypeDef bodyType;
-        public Gender gender = 0;
-    }
+    public BodyTypeDef bodyType;
+    public Gender gender = 0;
 }
