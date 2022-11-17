@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>FemaleBB BodyType for Human</li>
-    </mods>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/BodyTypeDef[defName="FemaleBB"]</xpath>
+    <success>Always</success>
     <match Class="PatchOperationConditional">
       <xpath>/Defs/RecipeDef[@Name="PL_AlterBodySurgery"]</xpath>
       <match Class="PatchOperationInsert">
