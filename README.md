@@ -60,3 +60,4 @@ Known Problems: Changing the sex of a pawn who is in a relationship can have som
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2018276375]Last updated 2023-05-01
