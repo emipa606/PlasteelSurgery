@@ -59,5 +59,5 @@ Known Problems: Changing the sex of a pawn who is in a relationship can have som
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2018276375]![Image](https://img.shields.io/github/v/release/emipa606/PlasteelSurgery?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2018276375]Last updated 2023-05-01
