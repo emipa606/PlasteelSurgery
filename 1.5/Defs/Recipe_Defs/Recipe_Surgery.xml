@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef Abstract="True" Name="PlasteelSurgery" ParentName="SurgeryFlesh">
+    <effectWorking>Surgery</effectWorking>
+    <soundWorking>Recipe_Surgery</soundWorking>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <workSkill>Medicine</workSkill>
+    <workSkillLearnFactor>16</workSkillLearnFactor>
+    <hideBodyPartNames>true</hideBodyPartNames>
+  </RecipeDef>
+  <!-- =================== Misc TRAIT ALTERATION ======================-->
+  <RecipeDef Abstract="True" Name="PS_Recipes_Surgery_TraitAlterBase" ParentName="PlasteelSurgery">
+    <workAmount>4000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <surgerySuccessChanceFactor>0.75</surgerySuccessChanceFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Neck</li>
+    </appliedOnFixedBodyParts>
+    <hideBodyPartNames>true</hideBodyPartNames>
+  </RecipeDef>
+  <RecipeDef ParentName="PS_Recipes_Surgery_TraitAlterBase">
+    <defName>PS_Recipes_Surgery_Laryngoplasty</defName>
+    <label>Laryngoplasty</label>
+    <description>A laryngeal reconstruction surgery that is able to alter or restore a persons voice. Very useful for people suffering from annoying voices, creepy breathing, or botched laryngoplasties.</description>
+    <workerClass>PlasteelSurgery.PS_Recipes_Surgery_Laryngoplasty</workerClass>
+    <jobString>Performing laryngoplasty.</jobString>
+    <researchPrerequisite>PS_Research_Laryngoplasty</researchPrerequisite>
+  </RecipeDef>
+  <!--<Def ParentName="PS_Recipes_Surgery_TraitAlterBase">
+    <defName>PS_Recipes_Surgery_StimulateLegs</defName>
+    <label>Stimulate leg muscles</label>
+    <description>Through the use of small electric shocks to the patient’s legs, ambulatory functions can be improved, increasing overall movement speed. Failure in this surgery can have the opposite effect.</description>
+    <workerClass>PlasteelSurgery.PS_Recipes_Surgery_Laryngoplasty</workerClass>
+    <jobString>Stimulating leg muscles.</jobString>
+    <researchPrerequisite>PS_Research_Laryngoplasty</researchPrerequisite>
+  </Def>-->
+  <RecipeDef ParentName="PS_Recipes_Surgery_TraitAlterBase">
+    <defName>PS_Recipes_Surgery_ImmunityBoost</defName>
+    <label>boost immunity</label>
+    <description>Involves the injection of plasteel shavings directly into the bloodstream. If performed correctly the self sterilizing nature of plasteel can improve a patient's immune system. If performed incorrectly it could have the opposite effect.</description>
+    <workerClass>PlasteelSurgery.PS_Recipes_Surgery_ImmunityBoost</workerClass>
+    <jobString>Boosting immunity.</jobString>
+    <researchPrerequisite>PS_Research_ImmuneBoost</researchPrerequisite>
+  </RecipeDef>
+  <!-- =================== BODY ALTERATION ======================-->
+  <RecipeDef Abstract="True" Name="PL_AlterBodySurgery" ParentName="PlasteelSurgery">
+    <jobString>Performing plasteel surgery.</jobString>
+    <workAmount>8000</workAmount>
+    <skillRequirements>
+      <Medicine>5</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <hideBodyPartNames>true</hideBodyPartNames>
+    <researchPrerequisite>PS_BodyModResearch</researchPrerequisite>
+    <workerClass>PlasteelSurgery.BaseAlterBody</workerClass>
+  </RecipeDef>
+  <RecipeDef ParentName="PL_AlterBodySurgery">
+    <defName>PS_MakeThin</defName>
+    <label>Body Mod: Reduce Fat</label>
+    <description>Uses liposuction in conjecture with stomach stapling to take pounds off and keep them off.</description>
+    <modExtensions>
+      <li Class="PlasteelSurgery.SurgeryDef">
+        <bodyType>Thin</bodyType>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+  <RecipeDef ParentName="PL_AlterBodySurgery">
+    <defName>PS_MakeStandard</defName>
+    <label>Body Mod: Standardize</label>
+    <description>Removes or replaces loose muscle and fat to leave the patient with a standard not special physique.</description>
+    <modExtensions>
+      <li Class="PlasteelSurgery.SurgeryDef">
+        <!-- empty on purpose. Case is covered in code, distingiushing gender -->
+      </li>
+    </modExtensions>
+  </RecipeDef>
+  <RecipeDef ParentName="PL_AlterBodySurgery">
+    <defName>PS_MakeLookFemale</defName>
+    <label>Body Mod: Feminize</label>
+    <description>Gives the patient the appearance of a standard female body without changing actual biological sex.</description>
+    <modExtensions>
+      <li Class="PlasteelSurgery.SurgeryDef">
+        <bodyType>Female</bodyType>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+  <RecipeDef ParentName="PL_AlterBodySurgery">
+    <defName>PS_MakeHulk</defName>
+    <label>Body Mod: Stimulate Muscle Growth</label>
+    <description>Uses electrodes along with steroid injections to rapidly develope muscle. Warning: Leg day not included!</description>
+    <modExtensions>
+      <li Class="PlasteelSurgery.SurgeryDef">
+        <bodyType>Hulk</bodyType>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+  <RecipeDef ParentName="PL_AlterBodySurgery">
+    <defName>PS_MakeFat</defName>
+    <label>Body Mod: Add Fat</label>
+    <description>Injects donor fat and slows the patients metabolism causing them to gain weight shockingly quickly.</description>
+    <modExtensions>
+      <li Class="PlasteelSurgery.SurgeryDef">
+        <bodyType>Fat</bodyType>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+  <RecipeDef ParentName="PL_AlterBodySurgery">
+    <defName>PS_MakeLookMale</defName>
+    <label>Body Mod: Masculinize</label>
+    <description>Gives the patient the appearance of a standard male body without changing actual biological sex.</description>
+    <modExtensions>
+      <li Class="PlasteelSurgery.SurgeryDef">
+        <bodyType>Male</bodyType>
+      </li>
+    </modExtensions>
+  </RecipeDef>
+  <RecipeDef ParentName="PL_AlterBodySurgery">
+    <defName>PS_ChangeSex</defName>
+    <label>Body Mod: Sex Change</label>
+    <description>Alters the patient's bological sex to be the opposite of what it currently is. This surgery is purely internal and does not effect appearances.</description>
+    <workerClass Inherit="false">PlasteelSurgery.BaseAlterSex</workerClass>
+    <researchPrerequisite>PS_SexModResearch</researchPrerequisite>
+  </RecipeDef>
+  <!-- =================== FACE ALTERATION ======================-->
+  <RecipeDef Abstract="True" Name="PL_AlterFaceSurgeryBase" ParentName="PlasteelSurgery">
+    <jobString>Performing plasteel surgery.</jobString>
+    <workAmount>8000</workAmount>
+    <skillRequirements>
+      <Medicine>10</Medicine>
+    </skillRequirements>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>MedicineHerbal</li>
+      </disallowedThingDefs>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Torso</li>
+    </appliedOnFixedBodyParts>
+    <hideBodyPartNames>true</hideBodyPartNames>
+  </RecipeDef>
+  <RecipeDef Abstract="True" Name="PS_IncreaseBeautyBase" ParentName="PL_AlterFaceSurgeryBase">
+    <label>Facial Reconstruction: Increase Beauty</label>
+    <description>With the hands of a surgeon and the soul of an artist, rebuild the patients face into something a little nicer to look at.</description>
+    <researchPrerequisite>PS_AdvancedFacialResearch</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="PS_IncreaseBeautyBase">
+    <defName>PS_IncreaseBeautyBasic</defName>
+    <workerClass>PlasteelSurgery.IncreaseBeautyBasic</workerClass>
+    <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
+    <researchPrerequisite>PS_BasicResearch</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="PS_IncreaseBeautyBase">
+    <defName>PS_IncreaseBeautyMid</defName>
+    <workerClass>PlasteelSurgery.IncreaseBeautyMid</workerClass>
+    <surgerySuccessChanceFactor>8.0</surgerySuccessChanceFactor>
+    <researchPrerequisite>PS_IntermediateResearch</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="PS_IncreaseBeautyBase">
+    <defName>PS_IncreaseBeautyAdv</defName>
+    <workerClass>PlasteelSurgery.IncreaseBeautyAdv</workerClass>
+    <surgerySuccessChanceFactor>5.0</surgerySuccessChanceFactor>
+    <researchPrerequisite>PS_AdvancedFacialResearch</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef Abstract="True" Name="PS_DecreaseBeautyBase" ParentName="PL_AlterFaceSurgeryBase">
+    <label>Facial Reconstruction: Decrease Beauty</label>
+    <description>A scalpel cut here, some sutures there, and you've got a face only a mother could love. Not sure why you would do this to somebody, but you do you.</description>
+    <researchPrerequisite>PS_AdvancedFacialResearch</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="PS_DecreaseBeautyBase">
+    <defName>PS_DecreaseBeautyBasic</defName>
+    <workerClass>PlasteelSurgery.DecreaseBeautyBasic</workerClass>
+    <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
+    <researchPrerequisite>PS_BasicResearch</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="PS_DecreaseBeautyBase">
+    <defName>PS_DecreaseBeautyMid</defName>
+    <workerClass>PlasteelSurgery.DecreaseBeautyMid</workerClass>
+    <surgerySuccessChanceFactor>8.0</surgerySuccessChanceFactor>
+    <researchPrerequisite>PS_IntermediateResearch</researchPrerequisite>
+  </RecipeDef>
+</Defs>

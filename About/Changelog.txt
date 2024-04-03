@@ -1,5 +1,8 @@
 # Changelog for PlasteelSurgery
 
+1.5.0 - Mod updated for 1.5 and passed autotests
+
+
 1.4.4 - Removed old assembly left from the original mod
 
 

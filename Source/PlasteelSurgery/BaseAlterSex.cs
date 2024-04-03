@@ -18,7 +18,7 @@ public class BaseAlterSex : Recipe_InstallArtificialBodyPart
         {
             TaleRecorder.RecordTale(TaleDefOf.DidSurgery, billDoer, pawn);
             pawn.gender = pawn.gender == Gender.Male ? Gender.Female : Gender.Male;
-            pawn.Drawer.renderer.graphics.ResolveAllGraphics();
+            pawn.Drawer.renderer.SetAllGraphicsDirty();
             Messages.Message(
                 string.Format("PS_Messages_SurgeryResult_Success".Translate(), billDoer.LabelShort,
                     pawn.LabelShort, "PS_Messages_Surgery_SexChange".Translate()), new LookTargets(pawn),

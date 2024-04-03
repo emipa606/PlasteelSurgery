@@ -72,15 +72,16 @@ public class InstallDopaminePump : Recipe_InstallArtificialBodyPart
         Log.Message($"Passion boost of removed implant: {passionBoost}");
         var wasAdvanced = currentImplantHeDiff.def.defName.Contains("_Adv_");
         var skill = GetSkill(currentImplantHeDiff.def.defName);
-        //if(passionBoost == 0)
-        //    //No Effect
-        if (passionBoost == 1)
+        switch (passionBoost)
         {
-            pawn.skills.GetSkill(skill).passion = wasAdvanced ? Passion.Minor : Passion.None;
-        }
-        else if (passionBoost == 2)
-        {
-            pawn.skills.GetSkill(skill).passion = Passion.None;
+            //if(passionBoost == 0)
+            //    //No Effect
+            case 1:
+                pawn.skills.GetSkill(skill).passion = wasAdvanced ? Passion.Minor : Passion.None;
+                break;
+            case 2:
+                pawn.skills.GetSkill(skill).passion = Passion.None;
+                break;
         }
 
         pawn.health.RemoveHediff(currentImplantHeDiff);

@@ -6,7 +6,7 @@ public class IncreaseBeautyAdv : BaseAlterBeauty
 {
     protected override List<int> AllowedDegrees()
     {
-        return new List<int> { -2, 1 };
+        return [-2, 1];
     }
 
     protected override int GetChange()

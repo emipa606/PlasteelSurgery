@@ -6,9 +6,11 @@ namespace PlasteelSurgery;
 
 public class BaseAlterBeauty : Recipe_InstallArtificialBodyPart
 {
+    private static readonly TraitDef beauty = TraitDef.Named("Beauty");
+
     protected virtual List<int> AllowedDegrees()
     {
-        return new List<int> { 0 };
+        return [0];
     }
 
     protected virtual int GetChange()
@@ -76,19 +78,19 @@ public class BaseAlterBeauty : Recipe_InstallArtificialBodyPart
             degree = -2;
         }
 
-        if (pawn.story.traits.HasTrait(TraitDefOf.Beauty))
+        if (pawn.story.traits.HasTrait(beauty))
         {
-            PS_TraitChanger.Remove(pawn, pawn.story.traits.GetTrait(TraitDefOf.Beauty));
+            PS_TraitChanger.Remove(pawn, pawn.story.traits.GetTrait(beauty));
         }
 
         if (degree != 0)
         {
-            PS_TraitChanger.AddTrait(pawn, new Trait(TraitDefOf.Beauty, degree));
+            PS_TraitChanger.AddTrait(pawn, new Trait(beauty, degree));
         }
     }
 
     private static int GetCurrentBeauty(Pawn pawn)
     {
-        return pawn.story.traits.DegreeOfTrait(TraitDefOf.Beauty);
+        return pawn.story.traits.DegreeOfTrait(beauty);
     }
 }

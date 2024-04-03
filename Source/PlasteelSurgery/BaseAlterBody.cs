@@ -52,7 +52,7 @@ public class BaseAlterBody : Recipe_InstallArtificialBodyPart
             TaleRecorder.RecordTale(TaleDefOf.DidSurgery, billDoer, pawn);
             pawn.story.bodyType = GetTargetBody(pawn.gender == Gender.Male,
                 bill.recipe.GetModExtension<SurgeryDef>().bodyType);
-            pawn.Drawer.renderer.graphics.ResolveAllGraphics();
+            pawn.Drawer.renderer.SetAllGraphicsDirty();
 
             //var hediff = HediffMaker.MakeHediff(PS_DefOf.PS_Hediff_HadPlasteelSurgery, pawn, part);
             //pawn.health.AddHediff(hediff);
