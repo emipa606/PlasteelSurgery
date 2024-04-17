@@ -6,6 +6,11 @@ namespace PlasteelSurgery;
 
 public class BaseAlterSex : Recipe_InstallArtificialBodyPart
 {
+    public override IEnumerable<BodyPartRecord> GetPartsToApplyOn(Pawn pawn, RecipeDef recipe)
+    {
+        yield return pawn.RaceProps.body.corePart;
+    }
+
     public override void ApplyOnPawn(Pawn pawn, BodyPartRecord part, Pawn billDoer, List<Thing> ingredients,
         Bill bill)
     {
