@@ -1,5 +1,8 @@
 # Changelog for PlasteelSurgery
 
+1.5.2 - Fixed issue with Quality Bionics
+
+
 1.5.1 - Fixed the issue with sex-reassignment surgery
 
 
