@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <PS_Messages_SurgeryResult_Success>{0}は、{1}の{2}の手術を完全に成功しました。</PS_Messages_SurgeryResult_Success>
   <PS_Messages_SurgeryResult_Botched>{0}は、{1}の{2}の手術を失敗した。</PS_Messages_SurgeryResult_Botched>

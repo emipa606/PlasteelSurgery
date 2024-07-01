@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <PS_Messages_SurgeryResult_Success>{0} 成功的完成了{1}的{2}.</PS_Messages_SurgeryResult_Success>
   <PS_Messages_SurgeryResult_Botched>{0} 搞砸了{1}的{2}.</PS_Messages_SurgeryResult_Botched>

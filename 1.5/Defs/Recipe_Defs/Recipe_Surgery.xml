@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <RecipeDef Abstract="True" Name="PlasteelSurgery" ParentName="SurgeryFlesh">
     <effectWorking>Surgery</effectWorking>
@@ -16,6 +16,7 @@
     </skillRequirements>
     <recipeUsers>
       <li>Human</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">CreepJoiner</li>
     </recipeUsers>
     <surgerySuccessChanceFactor>0.75</surgerySuccessChanceFactor>
     <ingredients>
@@ -79,6 +80,7 @@
     </skillRequirements>
     <recipeUsers>
       <li>Human</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">CreepJoiner</li>
     </recipeUsers>
     <surgerySuccessChanceFactor>1.0</surgerySuccessChanceFactor>
     <ingredients>
@@ -179,6 +181,7 @@
     </skillRequirements>
     <recipeUsers>
       <li>Human</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">CreepJoiner</li>
     </recipeUsers>
     <ingredients>
       <li>

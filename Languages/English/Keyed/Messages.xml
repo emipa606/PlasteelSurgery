@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <PS_Messages_SurgeryResult_Success>{0} successfully completed {1}'s {2}.</PS_Messages_SurgeryResult_Success>
   <PS_Messages_SurgeryResult_Botched>{0} botched {1}'s {2}.</PS_Messages_SurgeryResult_Botched>

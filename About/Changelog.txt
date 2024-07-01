@@ -1,5 +1,8 @@
 # Changelog for PlasteelSurgery
 
+1.5.3 - Added support for Creepjoiners
+
+
 1.5.2 - Fixed issue with Quality Bionics
 
 
