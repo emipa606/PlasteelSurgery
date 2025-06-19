@@ -14,16 +14,16 @@ public static class PS_TraitChanger
         }
 
         pawn.story?.traits.allTraits.Remove(theirTrait);
-        SafeApplyChange(pawn);
+        safeApplyChange(pawn);
     }
 
     public static void AddTrait(Pawn pawn, Trait trait)
     {
         pawn?.story?.traits.GainTrait(trait);
-        SafeApplyChange(pawn);
+        safeApplyChange(pawn);
     }
 
-    public static void SafeApplyChange(Pawn pawn)
+    private static void safeApplyChange(Pawn pawn)
     {
         pawn.Notify_DisabledWorkTypesChanged();
         pawn.workSettings?.Notify_DisabledWorkTypesChanged();

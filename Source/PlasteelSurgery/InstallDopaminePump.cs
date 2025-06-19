@@ -9,7 +9,7 @@ public class InstallDopaminePump : Recipe_InstallArtificialBodyPart
 {
     public override IEnumerable<BodyPartRecord> GetPartsToApplyOn(Pawn pawn, RecipeDef recipe)
     {
-        var targetSkill = GetSkill(recipe.defName);
+        var targetSkill = getSkill(recipe.defName);
         var isAdvanced = recipe.defName.Contains("_Adv_");
 
         var brainPart = pawn.health.hediffSet.GetBrain();
@@ -30,48 +30,40 @@ public class InstallDopaminePump : Recipe_InstallArtificialBodyPart
             return;
         }
 
-        Log.Message("Log 1");
-        if (!CheckSurgeryFail(billDoer, pawn, ingredients, part, bill))
+        if (CheckSurgeryFail(billDoer, pawn, ingredients, part, bill))
         {
-            Log.Message("Log 2");
-            var newImplant = ingredients
-                .FirstOrDefault(x => x.def.thingCategories.Contains(ThingCategoryDef.Named("PS_Dopamine_Pumps"))
-                                     || x.def.thingCategories.Contains(
-                                         ThingCategoryDef.Named("PS_Dopamine_Pumps_Adv")));
-            var newImplantName = newImplant?.def.defName;
+            return;
+        }
 
-            Log.Message("Log 3");
-            var currentImplantHeDiff = pawn.health.hediffSet.hediffs.FirstOrDefault(x =>
-                x.Part == part && x.def.defName.StartsWith("PS_Dopamine_Pump_"));
-            if (currentImplantHeDiff != null)
+        var newImplant = ingredients
+            .FirstOrDefault(x => x.def.thingCategories.Contains(ThingCategoryDef.Named("PS_Dopamine_Pumps"))
+                                 || x.def.thingCategories.Contains(
+                                     ThingCategoryDef.Named("PS_Dopamine_Pumps_Adv")));
+        var newImplantName = newImplant?.def.defName;
+
+        var currentImplantHeDiff = pawn.health.hediffSet.hediffs.FirstOrDefault(x =>
+            x.Part == part && x.def.defName.StartsWith("PS_Dopamine_Pump_"));
+        if (currentImplantHeDiff != null)
+        {
+            resetPassion(pawn, currentImplantHeDiff);
+            if (currentImplantHeDiff.def.spawnThingOnRemoved != null)
             {
-                ResetPassion(pawn, currentImplantHeDiff);
-                if (currentImplantHeDiff.def.spawnThingOnRemoved != null)
-                {
-                    GenPlace.TryPlaceThing(ThingMaker.MakeThing(currentImplantHeDiff.def.spawnThingOnRemoved),
-                        pawn.Position, pawn.Map, ThingPlaceMode.Near, out _);
-                }
+                GenPlace.TryPlaceThing(ThingMaker.MakeThing(currentImplantHeDiff.def.spawnThingOnRemoved),
+                    pawn.Position, pawn.Map, ThingPlaceMode.Near, out _);
             }
-
-
-            Log.Message("Log 4");
-            AddPassion(pawn, newImplantName, part, GetSkill(newImplantName));
-
-            Log.Message("Log 5");
-            TaleRecorder.RecordTale(TaleDefOf.DidSurgery, billDoer, pawn);
         }
-        else
-        {
-            Log.Message("Log 7 failed");
-        }
+
+
+        addPassion(pawn, newImplantName, part, getSkill(newImplantName));
+
+        TaleRecorder.RecordTale(TaleDefOf.DidSurgery, billDoer, pawn);
     }
 
-    private static void ResetPassion(Pawn pawn, Hediff currentImplantHeDiff)
+    private static void resetPassion(Pawn pawn, Hediff currentImplantHeDiff)
     {
         var passionBoost = (int)currentImplantHeDiff.Severity;
-        Log.Message($"Passion boost of removed implant: {passionBoost}");
         var wasAdvanced = currentImplantHeDiff.def.defName.Contains("_Adv_");
-        var skill = GetSkill(currentImplantHeDiff.def.defName);
+        var skill = getSkill(currentImplantHeDiff.def.defName);
         switch (passionBoost)
         {
             //if(passionBoost == 0)
@@ -87,10 +79,10 @@ public class InstallDopaminePump : Recipe_InstallArtificialBodyPart
         pawn.health.RemoveHediff(currentImplantHeDiff);
     }
 
-    private static void AddPassion(Pawn pawn, string newImplantName, BodyPartRecord part, SkillDef skill)
+    private static void addPassion(Pawn pawn, string newImplantName, BodyPartRecord part, SkillDef skill)
     {
         var hediff = HediffDef.Named(newImplantName);
-        var startingPassion = pawn.skills.GetSkill(GetSkill(newImplantName)).passion;
+        var startingPassion = pawn.skills.GetSkill(getSkill(newImplantName)).passion;
         var isAdvanced = newImplantName.Contains("_Adv_");
         switch (startingPassion)
         {
@@ -108,11 +100,7 @@ public class InstallDopaminePump : Recipe_InstallArtificialBodyPart
         pawn.health.AddHediff(hediff, part);
 
         Passion newPassion;
-        if (isAdvanced)
-        {
-            newPassion = Passion.Major;
-        }
-        else if (startingPassion == Passion.Major)
+        if (isAdvanced || startingPassion == Passion.Major)
         {
             newPassion = Passion.Major;
         }
@@ -124,7 +112,7 @@ public class InstallDopaminePump : Recipe_InstallArtificialBodyPart
         pawn.skills.GetSkill(skill).passion = newPassion;
     }
 
-    private static SkillDef GetSkill(string implantName)
+    private static SkillDef getSkill(string implantName)
     {
         if (implantName.EndsWith("Artistic"))
         {
@@ -181,11 +169,8 @@ public class InstallDopaminePump : Recipe_InstallArtificialBodyPart
             return SkillDefOf.Shooting;
         }
 
-        if (implantName.EndsWith("Social"))
-        {
-            return SkillDefOf.Social;
-        }
-
-        throw new NotImplementedException($"Unknown implant type: {implantName}");
+        return implantName.EndsWith("Social")
+            ? SkillDefOf.Social
+            : throw new NotImplementedException($"Unknown implant type: {implantName}");
     }
 }

@@ -79,9 +79,4 @@ public class PS_Recipes_Surgery_Laryngoplasty : Recipe_Surgery
                 MessageTypeDefOf.NegativeHealthEvent);
         }
     }
-
-    private static BodyTypeDef GetCurrentBodyType(Pawn pawn)
-    {
-        return pawn.story.bodyType;
-    }
 }

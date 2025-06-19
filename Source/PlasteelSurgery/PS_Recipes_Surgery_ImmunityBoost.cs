@@ -38,13 +38,14 @@ public class PS_Recipes_Surgery_ImmunityBoost : Recipe_Surgery
 
             var trait = pawn?.story?.traits?.allTraits?.Where(x => x.def.defName == "Immunity")
                 .FirstOrDefault();
-            if (trait is { Degree: -1 })
+            switch (trait)
             {
-                PS_TraitChanger.Remove(pawn, new Trait(DefDatabase<TraitDef>.GetNamed("Immunity"), -1));
-            }
-            else if (trait == null)
-            {
-                PS_TraitChanger.AddTrait(pawn, new Trait(DefDatabase<TraitDef>.GetNamed("Immunity"), 1));
+                case { Degree: -1 }:
+                    PS_TraitChanger.Remove(pawn, new Trait(DefDatabase<TraitDef>.GetNamed("Immunity"), -1));
+                    break;
+                case null:
+                    PS_TraitChanger.AddTrait(pawn, new Trait(DefDatabase<TraitDef>.GetNamed("Immunity"), 1));
+                    break;
             }
 
             Messages.Message(
@@ -56,13 +57,14 @@ public class PS_Recipes_Surgery_ImmunityBoost : Recipe_Surgery
         {
             var trait = pawn?.story?.traits?.allTraits?.Where(x => x.def.defName == "Immunity")
                 .FirstOrDefault();
-            if (trait is { Degree: 1 })
+            switch (trait)
             {
-                PS_TraitChanger.Remove(pawn, new Trait(DefDatabase<TraitDef>.GetNamed("Immunity"), 1));
-            }
-            else if (trait == null)
-            {
-                PS_TraitChanger.AddTrait(pawn, new Trait(DefDatabase<TraitDef>.GetNamed("Immunity"), -1));
+                case { Degree: 1 }:
+                    PS_TraitChanger.Remove(pawn, new Trait(DefDatabase<TraitDef>.GetNamed("Immunity"), 1));
+                    break;
+                case null:
+                    PS_TraitChanger.AddTrait(pawn, new Trait(DefDatabase<TraitDef>.GetNamed("Immunity"), -1));
+                    break;
             }
 
             Messages.Message(

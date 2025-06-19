@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: advanced reconstruction -->
+  <PS_AdvancedFacialResearch.label>advanced reconstruction</PS_AdvancedFacialResearch.label>
+  <!-- EN: Research the most advanced facial reconstruction surgery techniques.\n\nAllows change of beauty from:\n\nIncrease- staggeringly ugly to beautiful\n\nDecrease- beautiful to staggeringly ugly -->
+  <PS_AdvancedFacialResearch.description>Research the most advanced facial reconstruction surgery techniques.
+
+Allows change of beauty from:
+
+Increase- staggeringly ugly to beautiful
+
+Decrease- beautiful to staggeringly ugly</PS_AdvancedFacialResearch.description>
+  <!-- EN: basic reconstruction -->
+  <PS_BasicResearch.label>basic reconstruction</PS_BasicResearch.label>
+  <!-- EN: Research the most basic plastic surgery techniques. \n\nAllows change of beauty from: \n\nIncrease- ugly to plain\n\nDecrease- pretty to ugly -->
+  <PS_BasicResearch.description>Research the most basic plastic surgery techniques. 
+
+Allows change of beauty from: 
+
+Increase- ugly to plain
+
+Decrease- pretty to ugly</PS_BasicResearch.description>
+  <!-- EN: body modification -->
+  <PS_BodyModResearch.label>body modification</PS_BodyModResearch.label>
+  <!-- EN: Research alteration of weight and physical build. Allows for changes to the patient's body type. -->
+  <PS_BodyModResearch.description>Research alteration of weight and physical build. Allows for changes to the patient's body type.</PS_BodyModResearch.description>
+  <!-- EN: intermediate reconstruction -->
+  <PS_IntermediateResearch.label>intermediate reconstruction</PS_IntermediateResearch.label>
+  <!-- EN: Research intermediate plastic surgery techniques.\n\nAllows change of beauty from:\n\nIncrease- ugly to pretty\n\nDecrease- beautiful to staggeringly ugly -->
+  <PS_IntermediateResearch.description>Research intermediate plastic surgery techniques.
+
+Allows change of beauty from:
+
+Increase- ugly to pretty
+
+Decrease- beautiful to staggeringly ugly</PS_IntermediateResearch.description>
+  <!-- EN: immunity boosting -->
+  <PS_Research_ImmuneBoost.label>immunity boosting</PS_Research_ImmuneBoost.label>
+  <!-- EN: After a mishap involving confusing a vial of plasteel shaving for insulin, researchers discovered that the self sterilizing properties of plasteel take effect even while in the bloodstream. This lead to the development of an immune boosting procedure. Perfect for those who could best be described as sickly. -->
+  <PS_Research_ImmuneBoost.description>After a mishap involving confusing a vial of plasteel shaving for insulin, researchers discovered that the self sterilizing properties of plasteel take effect even while in the bloodstream. This lead to the development of an immune boosting procedure. Perfect for those who could best be described as sickly.</PS_Research_ImmuneBoost.description>
+  <!-- EN: laryngoplasty -->
+  <PS_Research_Laryngoplasty.label>laryngoplasty</PS_Research_Laryngoplasty.label>
+  <!-- EN: A laryngeal reconstruction surgery able to alter or restore a persons voice. Very useful for people who suffer from annoying voices, creepy breathing, or botched laryngoplasties. -->
+  <PS_Research_Laryngoplasty.description>A laryngeal reconstruction surgery able to alter or restore a persons voice. Very useful for people who suffer from annoying voices, creepy breathing, or botched laryngoplasties.</PS_Research_Laryngoplasty.description>
+  <!-- EN: sex reassignment -->
+  <PS_SexModResearch.label>sex reassignment</PS_SexModResearch.label>
+  <!-- EN: Research alteration of biological sex. Allows for sex change surgeries. This surgery is purely internal and does not affect appearances. -->
+  <PS_SexModResearch.description>Research alteration of biological sex. Allows for sex change surgeries. This surgery is purely internal and does not affect appearances.</PS_SexModResearch.description>
+</LanguageData>

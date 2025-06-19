@@ -50,7 +50,7 @@ public class BaseAlterBeauty : Recipe_InstallArtificialBodyPart
         if (!CheckSurgeryFail(billDoer, pawn, ingredients, part, bill))
         {
             TaleRecorder.RecordTale(TaleDefOf.DidSurgery, billDoer, pawn);
-            SetBeauty(pawn, GetCurrentBeauty(pawn) + GetChange());
+            setBeauty(pawn, GetCurrentBeauty(pawn) + GetChange());
             Messages.Message(
                 string.Format("PS_Messages_SurgeryResult_Success".Translate(), billDoer.LabelShort,
                     pawn.LabelShort, "PS_Messages_Surgery_Facial".Translate()), new LookTargets(pawn),
@@ -58,7 +58,7 @@ public class BaseAlterBeauty : Recipe_InstallArtificialBodyPart
         }
         else
         {
-            SetBeauty(pawn, GetCurrentBeauty(pawn) - 1);
+            setBeauty(pawn, GetCurrentBeauty(pawn) - 1);
             Messages.Message(
                 string.Format("PS_Messages_SurgeryResult_Botched".Translate(), billDoer.LabelShort,
                     pawn.LabelShort, "PS_Messages_Surgery_Facial".Translate()), new LookTargets(pawn),
@@ -66,7 +66,7 @@ public class BaseAlterBeauty : Recipe_InstallArtificialBodyPart
         }
     }
 
-    private static void SetBeauty(Pawn pawn, int degree)
+    private static void setBeauty(Pawn pawn, int degree)
     {
         if (degree > 2)
         {
@@ -78,10 +78,7 @@ public class BaseAlterBeauty : Recipe_InstallArtificialBodyPart
             degree = -2;
         }
 
-        if (beauty == null)
-        {
-            beauty = DefDatabase<TraitDef>.GetNamedSilentFail("Beauty");
-        }
+        beauty ??= DefDatabase<TraitDef>.GetNamedSilentFail("Beauty");
 
         if (beauty == null)
         {

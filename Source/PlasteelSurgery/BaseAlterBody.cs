@@ -29,7 +29,7 @@ public class BaseAlterBody : Recipe_InstallArtificialBodyPart
             yield break;
         }
 
-        var currentBody = GetCurrentBodyType(pawn);
+        var currentBody = getCurrentBodyType(pawn);
 
         if (currentBody == GetTargetBody(pawn.gender == Gender.Male, recipe.GetModExtension<SurgeryDef>().bodyType))
         {
@@ -70,7 +70,7 @@ public class BaseAlterBody : Recipe_InstallArtificialBodyPart
         }
     }
 
-    private static BodyTypeDef GetCurrentBodyType(Pawn pawn)
+    private static BodyTypeDef getCurrentBodyType(Pawn pawn)
     {
         return pawn.story.bodyType;
     }
