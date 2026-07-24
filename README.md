@@ -1,6 +1,6 @@
 # [Plasteel Surgery (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2018276375)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Neon1028s
 https://steamcommunity.com/sharedfiles/filedetails/?id=1569056149
@@ -8,9 +8,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1569056149
 - Added support for modifying BB-bodys, thanks HR-SP!
 - Chinese translation added, thank you 法师Mage!
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 *** NOTE: This mod is out of date as of 1.1 ***
 Mlie being the awesome person they are has made an update that can be found here:
@@ -44,13 +44,13 @@ Compatibility: This mod can be added or removed from existing saves with out pro
 Known Problems: Changing the sex of a pawn who is in a relationship can have some side effects. If the new sex is not the preferred sex of the partner (ie. taking a hetero man-woman couple and changing the woman to a man) they will not automatically break up and will still share a bed, but it looks like they stop "getting some lovin'".
 
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -58,4 +58,4 @@ Known Problems: Changing the sex of a pawn who is in a relationship can have som
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/PlasteelSurgery?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2018276375) | tags:  medical research
+[![Image](https://img.shields.io/github/v/release/emipa606/PlasteelSurgery?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2018276375) | tags: medical research
